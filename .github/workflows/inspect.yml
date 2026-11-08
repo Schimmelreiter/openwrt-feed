@@ -17,14 +17,19 @@ jobs:
           set -x
           mkdir -p out
           sudo apt-get -qq update && sudo apt-get -qq install -y poppler-utils >/dev/null
-          curl -fsSL -o wsdd2.tar.xz http://deb.debian.org/debian/pool/main/w/wsdd2/wsdd2_1.8.7+dfsg.orig.tar.xz
-          sha256sum wsdd2.tar.xz | tee out/wsdd2.sha256
-          mkdir wsdd2 && tar -xJf wsdd2.tar.xz -C wsdd2 --strip-components=1
-          ls -la wsdd2 > out/wsdd2-files.txt
-          cp wsdd2/*.c wsdd2/*.h wsdd2/Makefile wsdd2/*.8 out/ 2>/dev/null || true
-          curl -fsSL -o samba.tar.gz https://download.samba.org/pub/samba/stable/samba-3.6.25.tar.gz && sha256sum samba.tar.gz | tee out/samba.sha256
-          curl -fsSL -o lltd.pdf "https://winprotocoldoc.blob.core.windows.net/productionwindowsarchives/MS-LLTD/%5BMS-LLTD%5D.pdf" || true
-          [ -s lltd.pdf ] && pdftotext -layout lltd.pdf out/MS-LLTD.txt
+          sudo apt-get -qq install -y zstd >/dev/null
+          for n in wsdd2-2023.12.21~b676d8ac.tar.zst wsdd2-2023.12.21~b676d8ac.tar.xz; do
+            curl -fsSL -o "$n" "https://sources.openwrt.org/$n" && break
+          done
+          ls -la wsdd2-* ; sha256sum wsdd2-* | tee out/wsdd2-netgear.sha256
+          mkdir ng && tar -xf wsdd2-2023.12.21* -C ng --strip-components=1
+          mkdir -p out/wsdd2-netgear && cp ng/*.c ng/*.h ng/Makefile out/wsdd2-netgear/ 2>/dev/null; ls -la ng > out/wsdd2-netgear/files.txt
+          for u in "https://winprotocoldocs-bhdugrdyduf5h2e4.b02.azurefd.net/MS-LLTD/%5bMS-LLTD%5d.pdf" \
+                   "https://winprotocoldoc.blob.core.windows.net/productionwindowsarchives/MS-LLTD/%5bMS-LLTD%5d.pdf" \
+                   "https://download.microsoft.com/download/9/5/E/95EF66AF-9026-4BB0-A41D-A4F81802D92C/%5bMS-LLTD%5d.pdf"; do
+            curl -fsSL -o lltd.pdf "$u" && [ -s lltd.pdf ] && { echo "got $u"; break; }
+          done
+          [ -s lltd.pdf ] && pdftotext -layout lltd.pdf out/MS-LLTD.txt || echo "MS-LLTD pdf not found" > out/MS-LLTD.txt
           ls -la out
       - name: Publish excerpts to the 'inspect' branch
         run: |

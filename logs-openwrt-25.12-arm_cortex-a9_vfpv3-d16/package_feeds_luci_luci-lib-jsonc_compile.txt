@@ -19,4 +19,4 @@ mkdir -p /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_co
 cp jsonc.so /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/luci-lib-jsonc/ipkg-install/usr/lib/lua/luci/jsonc.so
 make[3]: Leaving directory '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/luci-lib-jsonc/src'
 rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/luci-lib-jsonc/ipkg-arm_cortex-a9_vfpv3-d16/luci-lib-jsonc/usr/lib/lua/luci/jsonc.so: shared object
-time: package/feeds/luci/luci-lib-jsonc/compile#0.79#1.57#2.43
+time: package/feeds/luci/luci-lib-jsonc/compile#0.69#1.44#1.97

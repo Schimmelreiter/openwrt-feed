@@ -397,4 +397,4 @@ WARNING: kmod-sound-hda-codec-ca0132 is not available in the kernel config - gen
 WARNING: kmod-sound-hda-codec-conexant is not available in the kernel config - generating empty package
 WARNING: kmod-sound-hda-codec-via is not available in the kernel config - generating empty package
 WARNING: kmod-sound-hda-codec-hdmi is not available in the kernel config - generating empty package
-time: package/kernel/linux/compile#117.39#245.07#316.15
+time: package/kernel/linux/compile#111.97#235.81#302.08

@@ -42,4 +42,4 @@ mkdir -p /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_co
 cp -pR dist/* /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/luci-lib-nixio/ipkg-install/
 make[3]: Leaving directory '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/luci-lib-nixio/src'
 rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/luci-lib-nixio/ipkg-arm_cortex-a9_vfpv3-d16/luci-lib-nixio/usr/lib/lua/nixio.so: shared object
-time: package/feeds/luci/luci-lib-nixio/compile#2.65#2.42#5.53
+time: package/feeds/luci/luci-lib-nixio/compile#2.61#2.39#5.44

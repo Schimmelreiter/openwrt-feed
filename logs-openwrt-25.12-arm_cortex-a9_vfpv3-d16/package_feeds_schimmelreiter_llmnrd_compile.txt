@@ -21,7 +21,7 @@ llmnrd-0.7.tar.zst: Download from https://github.com/Schimmelreiter/llmnrd.git f
 llmnrd-0.7.tar.zst: Requires sha256sum for verification
 Checking out files from the git repository...
 Cloning into 'llmnrd-0.7'...
-Note: switching to 'c1e74297da6f6633805fb9f600ae936915fa56bc'.
+Note: switching to 'f662f9d7eafb5a2d4a6bc3a212703c56c8e054cb'.
 
 You are in 'detached HEAD' state. You can look around, make experimental
 changes and commit them, and you can discard any commits you make in this
@@ -38,7 +38,7 @@ Or undo this operation with:
 
 Turn off this advice by setting config variable advice.detachedHead to false
 
-HEAD is now at c1e7429 Add GitHub action for build testing
+HEAD is now at f662f9d Log and handle only new addresses
 Generating formal git archive (apply .gitattributes rules)
 Packing checkout...
 make[3]: Entering directory '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/llmnrd-0.7'
@@ -54,4 +54,4 @@ make[3]: Entering directory '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bui
 make[3]: Leaving directory '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/llmnrd-0.7'
 rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/llmnrd-0.7/ipkg-arm_cortex-a9_vfpv3-d16/llmnrd/usr/sbin/llmnrd: executable
 rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/llmnrd-0.7/ipkg-arm_cortex-a9_vfpv3-d16/llmnrd/usr/sbin/llmnr-query: executable
-time: package/feeds/schimmelreiter/llmnrd/compile#1.14#1.47#3.63
+time: package/feeds/schimmelreiter/llmnrd/compile#1.10#1.41#4.13

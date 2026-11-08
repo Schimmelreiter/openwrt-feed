@@ -1,4 +1,4 @@
-# Builds all packages of this feed with the official OpenWrt SDK containers
+# Builds all packages of this feed with the official OpenWrt SDK
 # and publishes them:
 #   - as GitHub release "packages-<release>-<arch>" (rolling, replaced on
 #     every push to main), for manual download and installation
@@ -32,30 +32,73 @@ jobs:
           # Router "Link" (Linksys WRT1900ACS, mvebu)
           - arch: arm_cortex-a9_vfpv3-d16
             release: openwrt-25.12
-            sdk: v25.12.6
+            version: 25.12.6
+            target: mvebu/cortexa9
             ext: apk
           # Access points (Cudy AP1300, ramips mt7621)
           - arch: mipsel_24kc
             release: openwrt-24.10
-            sdk: v24.10.8
+            version: 24.10.8
+            target: ramips/mt7621
             ext: ipk
 
+    # The SDK is downloaded directly instead of using openwrt/gh-action-sdk:
+    # its containers fetch the SDK in setup.sh without a timeout, and that
+    # step hung for more than 45 minutes.
     steps:
       - uses: actions/checkout@v4
+        with:
+          path: feed
+
+      - name: Install host tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq build-essential clang flex bison g++ gawk \
+            gcc-multilib g++-multilib gettext git libncurses-dev libssl-dev \
+            python3-setuptools python3-dev rsync swig unzip zlib1g-dev file wget zstd
+
+      - name: Download SDK
+        timeout-minutes: 20
+        run: |
+          base="https://downloads.openwrt.org/releases/${{ matrix.version }}/targets/${{ matrix.target }}"
+          curl -fsSL --retry 5 --retry-delay 10 --max-time 120 -o sha256sums "$base/sha256sums"
+          line=$(grep -E ' \*?openwrt-sdk-.*\.tar\.(zst|xz)$' sha256sums | head -n1)
+          file=$(echo "$line" | sed 's/.* \*\{0,1\}//')
+          echo "SDK: $file"
+          curl -fL --retry 5 --retry-delay 10 --speed-limit 50000 --speed-time 60 \
+            --max-time 900 -o "$file" "$base/$file"
+          echo "$line" | sed 's/ \*/  /' | sha256sum -c -
+          mkdir sdk
+          tar -xf "$file" -C sdk --strip-components=1
+          rm -f "$file"
+
+      - name: Feeds
+        timeout-minutes: 20
+        working-directory: sdk
+        run: |
+          sed -e 's,https://git.openwrt.org/feed/,https://github.com/openwrt/,' \
+              -e 's,https://git.openwrt.org/openwrt/,https://github.com/openwrt/,' \
+              -e 's,https://git.openwrt.org/project/,https://github.com/openwrt/,' \
+              feeds.conf.default > feeds.conf
+          echo "src-link schimmelreiter $GITHUB_WORKSPACE/feed" >> feeds.conf
+          cat feeds.conf
+          ./scripts/feeds update -a
+          ./scripts/feeds install -p schimmelreiter -a
+          make defconfig
 
       - name: Build
-        uses: openwrt/gh-action-sdk@v11
-        env:
-          # release containers contain the SDK; branch containers
-          # ("-openwrt-24.10") download it first, which can take very long
-          ARCH: ${{ matrix.arch }}-${{ matrix.sdk }}
-          FEEDNAME: schimmelreiter
-          # build only this feed's packages (and their dependencies)
-          PACKAGES: llmnrd lltd wsdd2 samba36 luci-app-samba
-          NO_REFRESH_CHECK: '1'
-          NO_SHFMT_CHECK: '1'
-          IGNORE_ERRORS: '1'
-          INDEX: '1'
+        timeout-minutes: 120
+        working-directory: sdk
+        run: |
+          ret=0
+          for p in llmnrd lltd wsdd2 samba36 luci-app-samba; do
+            echo "::group::$p"
+            make -j"$(nproc)" BUILD_LOG=1 IGNORE_ERRORS=1 CONFIG_AUTOREMOVE=y "package/$p/compile" || ret=1
+            echo "::endgroup::"
+          done
+          make package/index V=s || true
+          mv bin logs "$GITHUB_WORKSPACE"/ 2>/dev/null || true
+          exit 0
 
       - name: Collect packages
         id: collect
@@ -75,11 +118,11 @@ jobs:
         run: |
           out="dist/${{ matrix.release }}/${{ matrix.arch }}"
           missing=0
-          for p in $(find . -path ./dist -prune -o -name Makefile -path './*/*/Makefile' -print \
+          for p in $(find feed -name Makefile -path 'feed/*/*/Makefile' -print \
                      | xargs grep -h 'BuildPackage\|^LUCI_TITLE' | sed -n 's/.*BuildPackage,\([^)]*\)).*/\1/p'); do
             ls "$out"/"$p"[-_]*.${{ matrix.ext }} >/dev/null 2>&1 || { echo "::error::package $p was not built"; missing=1; }
           done
-          for d in luci/*/; do
+          for d in feed/luci/*/; do
             p=$(basename "$d")
             ls "$out"/"$p"[-_]*.${{ matrix.ext }} >/dev/null 2>&1 || { echo "::error::package $p was not built"; missing=1; }
           done

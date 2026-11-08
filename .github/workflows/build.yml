@@ -57,20 +57,37 @@ jobs:
             gcc-multilib g++-multilib gettext git libncurses-dev libssl-dev \
             python3-setuptools python3-dev rsync swig unzip zlib1g-dev file wget zstd
 
+      # the SDK archive is cached; downloads.openwrt.org is sometimes slow and
+      # stalls, so the download resumes (curl -C -) instead of restarting
+      - name: Cache SDK
+        uses: actions/cache@v4
+        with:
+          path: sdk-dl
+          key: sdk-${{ matrix.version }}-${{ matrix.target }}
+
       - name: Download SDK
-        timeout-minutes: 20
+        timeout-minutes: 45
         run: |
           base="https://downloads.openwrt.org/releases/${{ matrix.version }}/targets/${{ matrix.target }}"
-          curl -fsSL --retry 5 --retry-delay 10 --max-time 120 -o sha256sums "$base/sha256sums"
+          mkdir -p sdk-dl && cd sdk-dl
+          [ -s sha256sums ] || curl -fsSL --retry 5 --retry-delay 10 --max-time 120 -o sha256sums "$base/sha256sums"
           line=$(grep -E ' \*?openwrt-sdk-.*\.tar\.(zst|xz)$' sha256sums | head -n1)
           file=$(echo "$line" | sed 's/.* \*\{0,1\}//')
           echo "SDK: $file"
-          curl -fL --retry 5 --retry-delay 10 --speed-limit 50000 --speed-time 60 \
-            --max-time 900 -o "$file" "$base/$file"
-          echo "$line" | sed 's/ \*/  /' | sha256sum -c -
+          check() { echo "$line" | sed 's/ \*/  /' | sha256sum -c --status -; }
+          i=0
+          until [ -s "$file" ] && check; do
+            i=$((i + 1))
+            [ $i -le 30 ] || { echo "::error::SDK download failed"; exit 1; }
+            curl -fL -C - --speed-limit 50000 --speed-time 30 --max-time 600 \
+              -o "$file" "$base/$file" || { echo "attempt $i interrupted, resuming"; sleep 5; }
+            if [ -s "$file" ] && ! check && [ "$(stat -c %s "$file")" -ge "$(curl -fsIL "$base/$file" | tr -d '\r' | awk 'tolower($1)=="content-length:"{n=$2} END{print n+0}')" ]; then
+              echo "checksum mismatch, downloading again"; rm -f "$file"
+            fi
+          done
+          cd ..
           mkdir sdk
-          tar -xf "$file" -C sdk --strip-components=1
-          rm -f "$file"
+          tar -xf "sdk-dl/$file" -C sdk --strip-components=1
 
       - name: Feeds
         timeout-minutes: 20

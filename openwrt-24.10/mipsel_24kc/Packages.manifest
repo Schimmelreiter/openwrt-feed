@@ -1,0 +1,139 @@
+Package: llmnrd
+Version: 0.7-r1
+Depends: libc
+Source: /home/runner/work/openwrt-feed/openwrt-feed/feed/net/llmnrd
+SourceName: llmnrd
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1794149604
+URL: https://github.com/Schimmelreiter/llmnrd
+Maintainer: Schimmelreiter
+Architecture: mipsel_24kc
+Installed-Size: 143360
+Filename: llmnrd_0.7-r1_mipsel_24kc.ipk
+Size: 13998
+SHA256sum: 704916f096c872d4085d98c5c0b38fb3498b04682e55e26abcdc35b4ee4a030a
+Description:  llmnrd answers Link-Local Multicast Name Resolution (RFC 4795) queries,
+ so Windows clients can resolve this device's host name on the local
+ network without a DNS entry. IPv4 and IPv6 are supported.
+
+Package: lltd
+Version: 1.0.0-r1
+Depends: libc
+Source: /home/runner/work/openwrt-feed/openwrt-feed/feed/net/lltd
+SourceName: lltd
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1794149604
+URL: https://github.com/Schimmelreiter/lltd
+Maintainer: Schimmelreiter
+Architecture: mipsel_24kc
+Installed-Size: 81920
+Filename: lltd_1.0.0-r1_mipsel_24kc.ipk
+Size: 19057
+SHA256sum: 083fcd3c78be52cdf29fc123b9b5c58d850f78c632a0392f841beb8a5f4216e6
+Description:  Responder for the Link Layer Topology Discovery protocol (MS-LLTD):
+ the device appears in the Windows network map with name, address,
+ medium, speed and icon, and takes part in topology tests. Handles
+ bridges with DSA switches (local FDB entries for test addresses).
+
+Package: luci-app-samba
+Version: 26.312.53604~cee4bb9
+Depends: libc, luci-compat, samba36-server, luci-lua-runtime
+Source: /home/runner/work/openwrt-feed/openwrt-feed/feed/luci/luci-app-samba
+SourceName: luci-app-samba
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1794149604
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-samba_26.312.53604~cee4bb9_all.ipk
+Size: 3338
+SHA256sum: 22bcdc91a0c8a023fa98e0940e89f29229f15fc2b2f51812fdbf5fa7517abc58
+Description:  Network Shares - Samba SMB/CIFS module
+
+Package: luci-i18n-samba-de
+Version: 26.312.53604~cee4bb9
+Depends: libc, luci-app-samba
+Source: /home/runner/work/openwrt-feed/openwrt-feed/feed/luci/luci-app-samba
+SourceName: luci-app-samba
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1794149604
+Maintainer: Schimmelreiter
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-samba-de_26.312.53604~cee4bb9_all.ipk
+Size: 2358
+SHA256sum: 117fcc251ead5cb69ec0d066e23b217788c1fb32df93251dd8a56a9cfc1db667
+Description:  Translation for luci-app-samba - Deutsch (German)
+
+Package: samba36-hotplug
+Version: 3.6.25-r15
+Depends: libc, blockd
+Source: /home/runner/work/openwrt-feed/openwrt-feed/feed/net/samba36
+SourceName: samba
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1794149604
+URL: https://www.samba.org/
+CPE-ID: cpe:/a:samba:samba
+Maintainer: Schimmelreiter
+Architecture: mipsel_24kc
+Installed-Size: 10240
+Filename: samba36-hotplug_3.6.25-r15_mipsel_24kc.ipk
+Size: 1437
+SHA256sum: b00d88b41ee3fe144a894f695c7966447b427a2a9210f0dd3745adc7d79cd8ae
+Description:  Samba 3.6 SMB/CIFS hotplug script for auto sharing
+
+Package: samba36-server
+Version: 3.6.25-r15
+Depends: libc
+Source: /home/runner/work/openwrt-feed/openwrt-feed/feed/net/samba36
+SourceName: samba
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1794149604
+URL: https://www.samba.org/
+CPE-ID: cpe:/a:samba:samba
+Maintainer: Schimmelreiter
+Architecture: mipsel_24kc
+Installed-Size: 1423360
+Filename: samba36-server_3.6.25-r15_mipsel_24kc.ipk
+Size: 777283
+SHA256sum: 16597205ee238aae61f2bb305cd79f163d312201c1f19b6aa0a34f162f0eb64e
+Description:  The Samba software suite is a collection of programs that implements the
+ SMB protocol for UNIX systems, allowing you to serve files and printers to
+ Windows, NT, OS/2 and DOS clients. This protocol is sometimes also referred
+ to as the LanManager or Netbios protocol.
+
+Package: wsdd2
+Version: 2023.12.21~b676d8ac-r10
+Depends: libc
+Source: /home/runner/work/openwrt-feed/openwrt-feed/feed/net/wsdd2
+SourceName: wsdd2
+License: GPL-3.0-only
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1794149604
+URL: https://github.com/Netgear/wsdd2
+Maintainer: Schimmelreiter
+Architecture: mipsel_24kc
+Installed-Size: 81920
+Filename: wsdd2_2023.12.21~b676d8ac-r10_mipsel_24kc.ipk
+Size: 17435
+SHA256sum: cfa56c6985bc12fb7747f8f03ae8658fb8b64d8fe8348ed911b3daac9b68a2f3
+Description:  Web Services for Devices or Web Services on Devices (WSD),
+ is a Microsoft API to simplify programming connections to web service
+ enabled devices, such as printers, scanners and file shares.
+ 
+ This daemon advertises and responds to probe requests from Windows clients
+ looking for file shares. It also implements LLMNR multicast name lookup.
+ Integrated with samba36-server from this feed.
+

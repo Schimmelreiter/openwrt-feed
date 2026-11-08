@@ -1,0 +1,88 @@
++ curl -f --connect-timeout 5 --retry 3 --location https://sources.cdn.openwrt.org/wsdd2-2023.12.21~b676d8ac.tar.zst
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0  0      0   0      0   0      0      0      0           00:01              0100  63581 100  63581   0      0  32448      0   00:01   00:01          32439100  63581 100  63581   0      0  32447      0   00:01   00:01          32439100  63581 100  63581   0      0  32446      0   00:01   00:01          32439
+
+Applying /home/runner/work/openwrt-feed/openwrt-feed/feed/net/wsdd2/patches/100-bootinfo-urls-and-device-category.patch using plaintext: 
+patching file wsd.c
+In file included from /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/wsdd2-2023.12.21~b676d8ac/wsd.c:55:
+/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/wsdd2-2023.12.21~b676d8ac/wsd.c: In function 'wsd_send_msg':
+/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/wsdd2-2023.12.21~b676d8ac/wsd.c:476:21: warning: format '%ld' expects argument of type 'long int', but argument 6 has type 'size_t' {aka 'unsigned int'} [-Wformat=]
+  476 |         DEBUG(3, W, "WSD-TO %s port %u (fd=%d,len=%ld,sent=%d) '%s'\n", ip, _SIN_PORT(sa), fd,
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  477 |                 msglen, ret, msg);
+      |                 ~~~~~~
+      |                 |
+      |                 size_t {aka unsigned int}
+/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/wsdd2-2023.12.21~b676d8ac/wsdd.h:55:49: note: in definition of macro 'DEBUG'
+   55 |                                 fprintf(stderr, __VA_ARGS__);           \
+      |                                                 ^~~~~~~~~~~
+/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/wsdd2-2023.12.21~b676d8ac/wsd.c:476:53: note: format string is defined here
+  476 |         DEBUG(3, W, "WSD-TO %s port %u (fd=%d,len=%ld,sent=%d) '%s'\n", ip, _SIN_PORT(sa), fd,
+      |                                                   ~~^
+      |                                                     |
+      |                                                     long int
+      |                                                   %d
+/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/wsdd2-2023.12.21~b676d8ac/wsd.c: In function 'wsd_recv':
+/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/wsdd2-2023.12.21~b676d8ac/wsd.c:1076:29: warning: format '%ld' expects argument of type 'long int', but argument 6 has type 'ssize_t' {aka 'int'} [-Wformat=]
+ 1076 |                 DEBUG(3, W, "WSD-FROM %s port %u (fd=%d,len=%ld): '%s'\n", ip, _SIN_PORT(&sa), fd, len, buf);
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                          ~~~
+      |                                                                                                    |
+      |                                                                                                    ssize_t {aka int}
+/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/wsdd2-2023.12.21~b676d8ac/wsdd.h:55:49: note: in definition of macro 'DEBUG'
+   55 |                                 fprintf(stderr, __VA_ARGS__);           \
+      |                                                 ^~~~~~~~~~~
+/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/wsdd2-2023.12.21~b676d8ac/wsd.c:1076:63: note: format string is defined here
+ 1076 |                 DEBUG(3, W, "WSD-FROM %s port %u (fd=%d,len=%ld): '%s'\n", ip, _SIN_PORT(&sa), fd, len, buf);
+      |                                                             ~~^
+      |                                                               |
+      |                                                               long int
+      |                                                             %d
+/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/wsdd2-2023.12.21~b676d8ac/wsd.c:1085:37: warning: format '%ld' expects argument of type 'long int', but argument 7 has type 'size_t' {aka 'unsigned int'} [-Wformat=]
+ 1085 |                         DEBUG(3, W, "WSD-BODY %s port %u (fd=%d,status=%d,len=%ld): '%s'\n", ip, _SIN_PORT(&sa),
+      |                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1086 |                                 fd, status, strlen(buf), buf);
+      |                                             ~~~~~~~~~~~
+      |                                             |
+      |                                             size_t {aka unsigned int}
+/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/wsdd2-2023.12.21~b676d8ac/wsdd.h:55:49: note: in definition of macro 'DEBUG'
+   55 |                                 fprintf(stderr, __VA_ARGS__);           \
+      |                                                 ^~~~~~~~~~~
+/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/wsdd2-2023.12.21~b676d8ac/wsd.c:1085:81: note: format string is defined here
+ 1085 |                         DEBUG(3, W, "WSD-BODY %s port %u (fd=%d,status=%d,len=%ld): '%s'\n", ip, _SIN_PORT(&sa),
+      |                                                                               ~~^
+      |                                                                                 |
+      |                                                                                 long int
+      |                                                                               %d
+In file included from /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/wsdd2-2023.12.21~b676d8ac/llmnr.c:51:
+/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/wsdd2-2023.12.21~b676d8ac/llmnr.c: In function 'llmnr_send_response':
+/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/wsdd2-2023.12.21~b676d8ac/llmnr.c:204:29: warning: format '%ld' expects argument of type 'long int', but argument 3 has type 'size_t' {aka 'unsigned int'} [-Wformat=]
+  204 |                 DEBUG(1, L, "llmnr: bad name length %ld != %ld", in_name_len, strlen(in_name));
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~
+      |                                                                  |
+      |                                                                  size_t {aka unsigned int}
+/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/wsdd2-2023.12.21~b676d8ac/wsdd.h:55:49: note: in definition of macro 'DEBUG'
+   55 |                                 fprintf(stderr, __VA_ARGS__);           \
+      |                                                 ^~~~~~~~~~~
+/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/wsdd2-2023.12.21~b676d8ac/llmnr.c:204:55: note: format string is defined here
+  204 |                 DEBUG(1, L, "llmnr: bad name length %ld != %ld", in_name_len, strlen(in_name));
+      |                                                     ~~^
+      |                                                       |
+      |                                                       long int
+      |                                                     %d
+/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/wsdd2-2023.12.21~b676d8ac/llmnr.c:204:29: warning: format '%ld' expects argument of type 'long int', but argument 4 has type 'size_t' {aka 'unsigned int'} [-Wformat=]
+  204 |                 DEBUG(1, L, "llmnr: bad name length %ld != %ld", in_name_len, strlen(in_name));
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~               ~~~~~~~~~~~~~~~
+      |                                                                               |
+      |                                                                               size_t {aka unsigned int}
+/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/wsdd2-2023.12.21~b676d8ac/wsdd.h:55:49: note: in definition of macro 'DEBUG'
+   55 |                                 fprintf(stderr, __VA_ARGS__);           \
+      |                                                 ^~~~~~~~~~~
+/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/wsdd2-2023.12.21~b676d8ac/llmnr.c:204:62: note: format string is defined here
+  204 |                 DEBUG(1, L, "llmnr: bad name length %ld != %ld", in_name_len, strlen(in_name));
+      |                                                            ~~^
+      |                                                              |
+      |                                                              long int
+      |                                                            %d
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/wsdd2-2023.12.21~b676d8ac/ipkg-arm_cortex-a9_vfpv3-d16/wsdd2/usr/bin/wsdd2: executable
+time: package/feeds/schimmelreiter/wsdd2/compile#0.94#1.04#3.61

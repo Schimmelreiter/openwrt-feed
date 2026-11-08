@@ -1,0 +1,57 @@
++ curl -f --connect-timeout 5 --retry 3 --location https://sources.cdn.openwrt.org/llmnrd-0.7.tar.zst
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (22) The requested URL returned error: 404
+Download failed.
++ curl -f --connect-timeout 5 --retry 3 --location https://sources.openwrt.org/llmnrd-0.7.tar.zst
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (22) The requested URL returned error: 404
+Download failed.
++ curl -f --connect-timeout 5 --retry 3 --location https://mirror2.openwrt.org/sources/llmnrd-0.7.tar.zst
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (22) The requested URL returned error: 404
+Download failed.
+No more mirrors to try - giving up.
+llmnrd-0.7.tar.zst: Download from https://github.com/Schimmelreiter/llmnrd.git failed
+llmnrd-0.7.tar.zst: Requires sha256sum for verification
+Checking out files from the git repository...
+Cloning into 'llmnrd-0.7'...
+Note: switching to 'c1e74297da6f6633805fb9f600ae936915fa56bc'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at c1e7429 Add GitHub action for build testing
+Generating formal git archive (apply .gitattributes rules)
+Packing checkout...
+make[3]: Entering directory '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/llmnrd-0.7'
+  CC llmnr.c
+  CC iface.c
+  CC socket.c
+  CC util.c
+  CC log.c
+  CC llmnrd.c
+  LD llmnrd
+  CC llmnr-query.c
+  LD llmnr-query
+make[3]: Leaving directory '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/llmnrd-0.7'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/llmnrd-0.7/ipkg-arm_cortex-a9_vfpv3-d16/llmnrd/usr/sbin/llmnrd: executable
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/llmnrd-0.7/ipkg-arm_cortex-a9_vfpv3-d16/llmnrd/usr/sbin/llmnr-query: executable
+time: package/feeds/schimmelreiter/llmnrd/compile#1.14#1.47#3.63

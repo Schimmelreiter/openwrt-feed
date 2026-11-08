@@ -1,0 +1,2 @@
+Makefile:798: WARNING: skipping libgomp -- package has no install section
+time: package/toolchain/compile#0.25#0.58#0.73

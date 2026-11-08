@@ -1,0 +1,400 @@
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-serial-belkin/lib/modules/6.12.112/belkin_sa.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-serial-ch341-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-serial-ch341/lib/modules/6.12.112/ch341.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-serial-ch348-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-serial-ch348/lib/modules/6.12.112/ch348.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-serial-edgeport-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-serial-edgeport/lib/modules/6.12.112/io_edgeport.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-serial-ftdi-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-serial-ftdi/lib/modules/6.12.112/ftdi_sio.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-serial-garmin-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-serial-garmin/lib/modules/6.12.112/garmin_gps.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-serial-simple-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-serial-simple/lib/modules/6.12.112/usb-serial-simple.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-serial-ti-usb-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-serial-ti-usb/lib/modules/6.12.112/ti_usb_3410_5052.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-serial-wwan-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-serial-wwan/lib/modules/6.12.112/usb_wwan.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-serial-ipw-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-serial-ipw/lib/modules/6.12.112/ipw.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-serial-mct-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-serial-mct/lib/modules/6.12.112/mct_u232.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-serial-mos7720-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-serial-mos7720/lib/modules/6.12.112/mos7720.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-serial-mos7840-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-serial-mos7840/lib/modules/6.12.112/mos7840.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-serial-pl2303-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-serial-pl2303/lib/modules/6.12.112/pl2303.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-serial-cp210x-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-serial-cp210x/lib/modules/6.12.112/cp210x.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-serial-ark3116-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-serial-ark3116/lib/modules/6.12.112/ark3116.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-serial-oti6858-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-serial-oti6858/lib/modules/6.12.112/oti6858.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-serial-sierrawireless-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-serial-sierrawireless/lib/modules/6.12.112/sierra.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-serial-visor-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-serial-visor/lib/modules/6.12.112/visor.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-serial-cypress-m8-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-serial-cypress-m8/lib/modules/6.12.112/cypress_m8.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-serial-keyspan-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-serial-keyspan/lib/modules/6.12.112/keyspan.ko: relocatable
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-serial-keyspan/lib/modules/6.12.112/ezusb.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-serial-option-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-serial-option/lib/modules/6.12.112/option.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-serial-qualcomm-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-serial-qualcomm/lib/modules/6.12.112/qcserial.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-serial-xr-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-serial-xr/lib/modules/6.12.112/xr_serial.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-storage-6.12.112-r1.apk'
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/usb/storage/usb-storage.ko' is built-in.
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-storage-extras-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-storage-extras/lib/modules/6.12.112/ums-cypress.ko: relocatable
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-storage-extras/lib/modules/6.12.112/ums-jumpshot.ko: relocatable
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-storage-extras/lib/modules/6.12.112/ums-freecom.ko: relocatable
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-storage-extras/lib/modules/6.12.112/ums-datafab.ko: relocatable
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-storage-extras/lib/modules/6.12.112/ums-karma.ko: relocatable
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-storage-extras/lib/modules/6.12.112/ums-usbat.ko: relocatable
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-storage-extras/lib/modules/6.12.112/ums-sddr55.ko: relocatable
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-storage-extras/lib/modules/6.12.112/ums-isd200.ko: relocatable
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-storage-extras/lib/modules/6.12.112/ums-sddr09.ko: relocatable
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-storage-extras/lib/modules/6.12.112/ums-alauda.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-storage-uas-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-storage-uas/lib/modules/6.12.112/uas.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-atm-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-atm/lib/modules/6.12.112/usbatm.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-atm-speedtouch-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-atm-speedtouch/lib/modules/6.12.112/speedtch.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-atm-ueagle-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-atm-ueagle/lib/modules/6.12.112/ueagle-atm.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-atm-cxacru-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-atm-cxacru/lib/modules/6.12.112/cxacru.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-net-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-net/lib/modules/6.12.112/usbnet.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-net-aqc111-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-net-aqc111/lib/modules/6.12.112/aqc111.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-net-asix-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-net-asix/lib/modules/6.12.112/asix.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-net-asix-ax88179-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-net-asix-ax88179/lib/modules/6.12.112/ax88179_178a.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-net-hso-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-net-hso/lib/modules/6.12.112/hso.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-net-kaweth-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-net-kaweth/lib/modules/6.12.112/kaweth.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-net-lan78xx-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-net-lan78xx/lib/modules/6.12.112/lan78xx.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-net-pegasus-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-net-pegasus/lib/modules/6.12.112/pegasus.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-net-mcs7830-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-net-mcs7830/lib/modules/6.12.112/mcs7830.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-net-smsc75xx-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-net-smsc75xx/lib/modules/6.12.112/smsc75xx.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-net-smsc95xx-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-net-smsc95xx/lib/modules/6.12.112/smsc95xx.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-net-dm9601-ether-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-net-dm9601-ether/lib/modules/6.12.112/dm9601.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-net-cdc-ether-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-net-cdc-ether/lib/modules/6.12.112/cdc_ether.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-net-cdc-eem-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-net-cdc-eem/lib/modules/6.12.112/cdc_eem.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-net-cdc-subset-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-net-cdc-subset/lib/modules/6.12.112/cdc_subset.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-net-qmi-wwan-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-net-qmi-wwan/lib/modules/6.12.112/qmi_wwan.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-net-rtl8150-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-net-rtl8150/lib/modules/6.12.112/rtl8150.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-net-rtl8152-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-net-rtl8152/lib/modules/6.12.112/r8152.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-net-sr9700-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-net-sr9700/lib/modules/6.12.112/sr9700.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-net-rndis-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-net-rndis/lib/modules/6.12.112/rndis_host.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-net-cdc-ncm-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-net-cdc-ncm/lib/modules/6.12.112/cdc_ncm.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-net-cdc-mbim-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-net-cdc-mbim/lib/modules/6.12.112/cdc_mbim.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-net-huawei-cdc-ncm-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-net-huawei-cdc-ncm/lib/modules/6.12.112/huawei_cdc_ncm.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-net-sierrawireless-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-net-sierrawireless/lib/modules/6.12.112/sierra_net.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-net-ipheth-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-net-ipheth/lib/modules/6.12.112/ipheth.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-net-kalmia-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-net-kalmia/lib/modules/6.12.112/kalmia.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-net-pl-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-net-pl/lib/modules/6.12.112/plusb.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-hid-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-hid/lib/modules/6.12.112/usbhid.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-hid-cp2112-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-hid-cp2112/lib/modules/6.12.112/hid-cp2112.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-hid-mcp2221-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-hid-mcp2221/lib/modules/6.12.112/hid-mcp2221.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-yealink-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-yealink/lib/modules/6.12.112/yealink.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-cm109-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-cm109/lib/modules/6.12.112/cm109.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-test-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-test/lib/modules/6.12.112/usbtest.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usbip-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usbip/lib/modules/6.12.112/usbip-core.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usbip-client-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usbip-client/lib/modules/6.12.112/vhci-hcd.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usbip-server-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usbip-server/lib/modules/6.12.112/usbip-host.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usbmon-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usbmon/lib/modules/6.12.112/usbmon.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-xhci-hcd-6.12.112-r1.apk'
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/usb/host/xhci-hcd.ko' is built-in.
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb3-6.12.112-r1.apk'
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-usb-xhci-pci-renesas-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-usb-xhci-pci-renesas/lib/modules/6.12.112/xhci-pci-renesas.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-chaoskey-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-chaoskey/lib/modules/6.12.112/chaoskey.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-core-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-core/lib/modules/6.12.112/videodev.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-videobuf2-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-videobuf2/lib/modules/6.12.112/videobuf2-vmalloc.ko: relocatable
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-videobuf2/lib/modules/6.12.112/videobuf2-common.ko: relocatable
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-videobuf2/lib/modules/6.12.112/videobuf2-memops.ko: relocatable
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-videobuf2/lib/modules/6.12.112/videobuf2-v4l2.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-pwc-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-pwc/lib/modules/6.12.112/pwc.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-uvc-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-uvc/lib/modules/6.12.112/uvcvideo.ko: relocatable
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-uvc/lib/modules/6.12.112/uvc.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-core-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-core/lib/modules/6.12.112/gspca_main.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-conex-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-conex/lib/modules/6.12.112/gspca_conex.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-etoms-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-etoms/lib/modules/6.12.112/gspca_etoms.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-finepix-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-finepix/lib/modules/6.12.112/gspca_finepix.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-mars-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-mars/lib/modules/6.12.112/gspca_mars.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-mr97310a-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-mr97310a/lib/modules/6.12.112/gspca_mr97310a.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-ov519-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-ov519/lib/modules/6.12.112/gspca_ov519.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-ov534-6.12.112-r1.apk'
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-ov534-9-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-ov534/lib/modules/6.12.112/gspca_ov534.ko: relocatable
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-ov534-9/lib/modules/6.12.112/gspca_ov534_9.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-pac207-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-pac207/lib/modules/6.12.112/gspca_pac207.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-pac7302-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-pac7302/lib/modules/6.12.112/gspca_pac7302.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-pac7311-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-pac7311/lib/modules/6.12.112/gspca_pac7311.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-se401-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-se401/lib/modules/6.12.112/gspca_se401.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-sn9c20x-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-sn9c20x/lib/modules/6.12.112/gspca_sn9c20x.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-sonixb-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-sonixb/lib/modules/6.12.112/gspca_sonixb.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-sonixj-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-sonixj/lib/modules/6.12.112/gspca_sonixj.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-spca500-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-spca500/lib/modules/6.12.112/gspca_spca500.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-spca501-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-spca501/lib/modules/6.12.112/gspca_spca501.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-spca505-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-spca505/lib/modules/6.12.112/gspca_spca505.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-spca506-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-spca506/lib/modules/6.12.112/gspca_spca506.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-spca508-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-spca508/lib/modules/6.12.112/gspca_spca508.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-spca561-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-spca561/lib/modules/6.12.112/gspca_spca561.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-sq905-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-sq905/lib/modules/6.12.112/gspca_sq905.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-sq905c-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-sq905c/lib/modules/6.12.112/gspca_sq905c.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-sq930x-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-sq930x/lib/modules/6.12.112/gspca_sq930x.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-stk014-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-stk014/lib/modules/6.12.112/gspca_stk014.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-sunplus-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-sunplus/lib/modules/6.12.112/gspca_sunplus.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-t613-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-t613/lib/modules/6.12.112/gspca_t613.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-tv8532-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-tv8532/lib/modules/6.12.112/gspca_tv8532.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-vc032x-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-vc032x/lib/modules/6.12.112/gspca_vc032x.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-zc3xx-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-zc3xx/lib/modules/6.12.112/gspca_zc3xx.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-m5602-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-m5602/lib/modules/6.12.112/gspca_m5602.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-stv06xx-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-stv06xx/lib/modules/6.12.112/gspca_stv06xx.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-gl860-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-gl860/lib/modules/6.12.112/gspca_gl860.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-jeilinj-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-jeilinj/lib/modules/6.12.112/gspca_jeilinj.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-gspca-konica-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-gspca-konica/lib/modules/6.12.112/gspca_konica.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-dma-contig-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-dma-contig/lib/modules/6.12.112/videobuf2-dma-contig.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-dma-sg-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-dma-sg/lib/modules/6.12.112/videobuf2-dma-sg.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-video-tw686x-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-video-tw686x/lib/modules/6.12.112/tw686x.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-vhost-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-vhost/lib/modules/6.12.112/vhost_iotlb.ko: relocatable
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-vhost/lib/modules/6.12.112/vhost.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-vhost-net-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-vhost-net/lib/modules/6.12.112/vhost_net.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-vsock-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-vsock/lib/modules/6.12.112/vsock.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-w1-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-w1/lib/modules/6.12.112/wire.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-w1-master-gpio-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-w1-master-gpio/lib/modules/6.12.112/w1-gpio.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-w1-master-ds2482-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-w1-master-ds2482/lib/modules/6.12.112/ds2482.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-w1-master-ds2490-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-w1-master-ds2490/lib/modules/6.12.112/ds2490.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-w1-slave-therm-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-w1-slave-therm/lib/modules/6.12.112/w1_therm.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-w1-slave-smem-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-w1-slave-smem/lib/modules/6.12.112/w1_smem.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-w1-slave-ds2431-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-w1-slave-ds2431/lib/modules/6.12.112/w1_ds2431.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-w1-slave-ds2433-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-w1-slave-ds2433/lib/modules/6.12.112/w1_ds2433.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-w1-slave-ds2413-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-w1-slave-ds2413/lib/modules/6.12.112/w1_ds2413.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-w1-slave-ds2438-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-w1-slave-ds2438/lib/modules/6.12.112/w1_ds2438.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-ieee802154-6.12.112-r1.apk'
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-ieee802154-6lowpan-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-ieee802154/lib/modules/6.12.112/ieee802154_socket.ko: relocatable
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-ieee802154/lib/modules/6.12.112/ieee802154.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-mac802154-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-mac802154/lib/modules/6.12.112/mac802154.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-fakelb-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-fakelb/lib/modules/6.12.112/fakelb.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-atusb-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-atusb/lib/modules/6.12.112/atusb.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-at86rf230-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-at86rf230/lib/modules/6.12.112/at86rf230.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-mrf24j40-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-mrf24j40/lib/modules/6.12.112/mrf24j40.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-cc2520-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-cc2520/lib/modules/6.12.112/cc2520.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-ca8210-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-ca8210/lib/modules/6.12.112/ca8210.ko: relocatable
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-ieee802154-6lowpan/lib/modules/6.12.112/ieee802154_6lowpan.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-linkstation-poweroff-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-linkstation-poweroff/lib/modules/6.12.112/linkstation-poweroff.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-turris-omnia-mcu-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-turris-omnia-mcu/lib/modules/6.12.112/turris-omnia-mcu.ko: relocatable
+removed '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/targets/mvebu/cortexa9/packages/kmod-leds-turris-omnia-6.12.112-r1.apk'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/packages/ipkg-arm_cortex-a9_vfpv3-d16/kmod-leds-turris-omnia/lib/modules/6.12.112/leds-turris-omnia.ko: relocatable
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/ata/libata.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/block/loop.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/nvme/host/nvme-core.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/nvme/host/nvme.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/scsi/scsi_mod.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/scsi/scsi_common.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/scsi/sd_mod.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/crypto/crypto_acompress.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/crypto/aead.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/lib/crypto/libarc4.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/crypto/authenc.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/crypto/authencesn.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/crypto/cbc.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/crypto/ccm.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/crypto/crc32_generic.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/crypto/crc32c_generic.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/crypto/ctr.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/crypto/deflate.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/crypto/des_generic.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/lib/crypto/libdes.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/crypto/ecb.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/crypto/essiv.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/crypto/gcm.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/lib/crypto/gf128mul.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/crypto/ghash-generic.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/crypto/crypto_hash.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/crypto/cryptomgr.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/crypto/crypto_null.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/crypto/sha1_generic.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/arch/arm/crypto/sha1-arm.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/lib/crypto/libsha256.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/arch/arm/crypto/sha512-arm.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/fs/exportfs/exportfs.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/fs/ext4/ext4.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/fs/jbd2/jbd2.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/fs/mbcache.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/fs/f2fs/f2fs.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/fs/squashfs/squashfs.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/gpio/gpio-pca953x.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/hwmon/hwmon.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/hwmon/pwm-fan.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/hwmon/tmp421.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/i2c/i2c-core.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/i2c/i2c-dev.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/leds/leds-gpio.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/leds/leds-pca963x.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/leds/leds-tlc591xx.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/lib/crc16.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/crypto/lzo.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/crypto/lzo-rle.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/lib/lzo/lzo_compress.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/lib/lzo/lzo_decompress.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/lib/xxhash.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/crypto/zstd.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/lib/zstd/zstd_common.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/lib/zstd/zstd_compress.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/lib/zstd/zstd_decompress.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/lib/zlib_inflate/zlib_inflate.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/lib/zlib_deflate/zlib_deflate.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/net/phy/libphy.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/net/phy/phylink.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/net/phy/mdio_devres.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/net/phy/marvell.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/net/phy/fixed_phy.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/net/mdio/of_mdio.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/net/mdio/fwnode_mdio.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/net/core/selftests.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/net/phy/sfp.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/net/mdio/mdio-i2c.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/fs/nls/nls_base.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/mmc/core/mmc_core.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/mmc/core/mmc_block.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/mmc/host/sdhci.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/mmc/host/sdhci-pltfm.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/tty/serial/8250/8250.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/tty/serial/8250/8250_base.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/tty/serial/serial_mctrl_gpio.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/base/regmap/regmap-i2c.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/base/regmap/regmap-mmio.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/char/hw_random/rng-core.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/rtc/rtc-mv.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/usb/common/usb-common.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/usb/core/usbcore.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/usb/core/ledtrig-usbport.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/usb/phy/phy-generic.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/usb/host/ehci-hcd.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/usb/host/ehci-platform.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/usb/host/ehci-pci.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/usb/storage/usb-storage.ko' is built-in.
+NOTICE: module '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/linux-6.12.112/drivers/usb/host/xhci-hcd.ko' is built-in.
+WARNING: kmod-crypto-hw-padlock is not available in the kernel config - generating empty package
+WARNING: kmod-thermal is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-core is not available in the kernel config - generating empty package
+WARNING: kmod-snd-hda-scodec-component is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-realtek is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-cmedia is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-analog is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-idt is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-si3054 is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-cirrus is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-ca0110 is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-ca0132 is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-conexant is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-via is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-hdmi is not available in the kernel config - generating empty package
+time: package/kernel/linux/compile#117.39#245.07#316.15

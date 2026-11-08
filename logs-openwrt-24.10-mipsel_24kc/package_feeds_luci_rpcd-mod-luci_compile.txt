@@ -25,4 +25,4 @@ ninja: Entering directory `/home/runner/work/openwrt-feed/openwrt-feed/sdk/build
 -- Installing: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/rpcd-mod-luci-20240305/ipkg-install/usr/lib/luci.so
 rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/rpcd-mod-luci-20240305/ipkg-mipsel_24kc/rpcd-mod-luci/usr/lib/rpcd/luci.so: shared object
 Packaged contents of /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/rpcd-mod-luci-20240305/ipkg-mipsel_24kc/rpcd-mod-luci into /home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/packages/mipsel_24kc/luci/rpcd-mod-luci_20240305-r1_mipsel_24kc.ipk
-time: package/feeds/luci/rpcd-mod-luci/compile#0.90#0.96#1.61
+time: package/feeds/luci/rpcd-mod-luci/compile#0.91#0.66#1.36

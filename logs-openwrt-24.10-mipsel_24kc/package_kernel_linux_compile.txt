@@ -27,4 +27,4 @@ WARNING: kmod-sound-hda-codec-hdmi is not available in the kernel config - gener
 WARNING: kmod-video-async is not available in the kernel config - generating empty package
 WARNING: kmod-video-fwnode is not available in the kernel config - generating empty package
 WARNING: kmod-video-cpia2 is not available in the kernel config - generating empty package
-time: package/kernel/linux/compile#1.76#0.62#2.67
+time: package/kernel/linux/compile#1.84#0.42#2.46

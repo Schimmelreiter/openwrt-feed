@@ -27,4 +27,4 @@ cp version.lua /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-
 make[3]: Leaving directory '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-lua-runtime/src'
 rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-lua-runtime/ipkg-mipsel_24kc/luci-lua-runtime/usr/lib/lua/luci/template/parser.so: shared object
 Packaged contents of /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-lua-runtime/ipkg-mipsel_24kc/luci-lua-runtime into /home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/packages/mipsel_24kc/luci/luci-lua-runtime_26.205.85413~cac97ed_mipsel_24kc.ipk
-time: package/feeds/luci/luci-lua-runtime/compile#0.92#1.18#1.84
+time: package/feeds/luci/luci-lua-runtime/compile#1.01#0.85#1.64

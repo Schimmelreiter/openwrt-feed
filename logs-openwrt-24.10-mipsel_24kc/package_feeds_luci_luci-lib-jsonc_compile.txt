@@ -20,4 +20,4 @@ cp jsonc.so /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mip
 make[3]: Leaving directory '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-lib-jsonc/src'
 rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-lib-jsonc/ipkg-mipsel_24kc/luci-lib-jsonc/usr/lib/lua/luci/jsonc.so: shared object
 Packaged contents of /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-lib-jsonc/ipkg-mipsel_24kc/luci-lib-jsonc into /home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/packages/mipsel_24kc/luci/luci-lib-jsonc_26.205.85413~cac97ed_mipsel_24kc.ipk
-time: package/feeds/luci/luci-lib-jsonc/compile#0.52#1.12#1.75
+time: package/feeds/luci/luci-lib-jsonc/compile#0.57#0.77#1.45

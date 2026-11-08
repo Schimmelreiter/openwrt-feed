@@ -1,3 +1,3 @@
-Packaged contents of /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-app-samba/ipkg-all/luci-app-samba into /home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/packages/mipsel_24kc/schimmelreiter/luci-app-samba_26.312.53604~cee4bb9_all.ipk
-Packaged contents of /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-app-samba/ipkg-all/luci-i18n-samba-de into /home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/packages/mipsel_24kc/schimmelreiter/luci-i18n-samba-de_26.312.53604~cee4bb9_all.ipk
-time: package/feeds/schimmelreiter/luci-app-samba/compile#0.37#1.04#1.19
+Packaged contents of /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-app-samba/ipkg-all/luci-app-samba into /home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/packages/mipsel_24kc/schimmelreiter/luci-app-samba_26.312.67175~f66fdb4_all.ipk
+Packaged contents of /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-app-samba/ipkg-all/luci-i18n-samba-de into /home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/packages/mipsel_24kc/schimmelreiter/luci-i18n-samba-de_26.312.67175~f66fdb4_all.ipk
+time: package/feeds/schimmelreiter/luci-app-samba/compile#0.43#0.76#0.97

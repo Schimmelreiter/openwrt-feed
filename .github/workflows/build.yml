@@ -139,7 +139,7 @@ jobs:
           [ -d dist-logs/logs ] || exit 0
           dir="logs-${{ matrix.release }}-${{ matrix.arch }}"
           git clone -q --depth 1 --branch logs "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" logrepo 2>/dev/null \
-            || { mkdir logrepo && git -C logrepo init -q -b logs; }
+            || { mkdir logrepo && git -C logrepo init -q -b logs && git -C logrepo remote add origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}"; }
           rm -rf "logrepo/$dir" && mkdir -p "logrepo/$dir"
           find dist-logs/logs -name 'compile.txt' | while read -r f; do
             t="logrepo/$dir/$(echo "$f" | sed 's|dist-logs/logs/||; s|/|_|g')"
@@ -151,15 +151,16 @@ jobs:
           git add -A && git commit -qm "Build logs ${{ matrix.release }} ${{ matrix.arch }} (${{ github.sha }})" || exit 0
           for i in 1 2 3; do
             git pull -q --rebase origin logs 2>/dev/null || true
-            git push -q origin HEAD:logs && break
+            git push -q origin HEAD:logs && exit 0
             sleep 5
           done
+          exit 1
 
       - name: Publish packages (branch "packages")
         if: github.event_name != 'pull_request'
         run: |
           git clone -q --depth 1 --branch packages "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" pkgrepo 2>/dev/null \
-            || { mkdir pkgrepo && git -C pkgrepo init -q -b packages; }
+            || { mkdir pkgrepo && git -C pkgrepo init -q -b packages && git -C pkgrepo remote add origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}"; }
           dir="pkgrepo/${{ matrix.release }}/${{ matrix.arch }}"
           rm -rf "$dir" && mkdir -p "$dir"
           cp -v dist/${{ matrix.release }}/${{ matrix.arch }}/* "$dir"/
@@ -169,14 +170,16 @@ jobs:
           git add -A && git commit -qm "Packages ${{ matrix.release }} ${{ matrix.arch }} (${{ github.sha }})" || exit 0
           for i in 1 2 3; do
             git pull -q --rebase origin packages 2>/dev/null || true
-            git push -q origin HEAD:packages && break
+            git push -q origin HEAD:packages && exit 0
             sleep 5
           done
+          exit 1
 
       - name: Publish packages (release)
         if: github.event_name != 'pull_request'
         env:
           GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
         run: |
           tag="packages-${{ matrix.release }}-${{ matrix.arch }}"
           files=$(ls dist/${{ matrix.release }}/${{ matrix.arch }}/*.${{ matrix.ext }} 2>/dev/null) || exit 0

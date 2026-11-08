@@ -1,0 +1,23 @@
+make[3]: Entering directory '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-lib-ip/src'
+rm -f *.o *.so
+mipsel-openwrt-linux-musl-gcc  -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -ffile-prefix-map=/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-lib-ip=luci-lib-ip -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -I/home/runner/work/openwrt-feed/openwrt-feed/sdk/staging_dir/toolchain-mipsel_24kc_gcc-13.3.0_musl/usr/include -I/home/runner/work/openwrt-feed/openwrt-feed/sdk/staging_dir/toolchain-mipsel_24kc_gcc-13.3.0_musl/include -I/home/runner/work/openwrt-feed/openwrt-feed/sdk/staging_dir/toolchain-mipsel_24kc_gcc-13.3.0_musl/include/fortify   -std=gnu99 -I/home/runner/work/openwrt-feed/openwrt-feed/sdk/staging_dir/target-mipsel_24kc_musl/usr/include/libnl-tiny/ -DPIC -fpic -c -o ip.o ip.c
+mipsel-openwrt-linux-musl-gcc -L/home/runner/work/openwrt-feed/openwrt-feed/sdk/staging_dir/toolchain-mipsel_24kc_gcc-13.3.0_musl/usr/lib -L/home/runner/work/openwrt-feed/openwrt-feed/sdk/staging_dir/toolchain-mipsel_24kc_gcc-13.3.0_musl/lib -fuse-ld=bfd -znow -zrelro  -shared -o ip.so ip.o -llua -lm -lnl-tiny -DPIC -fpic
+make[3]: Leaving directory '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-lib-ip/src'
+make[3]: Entering directory '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-lib-ip/src'
+mipsel-openwrt-linux-musl-gcc -L/home/runner/work/openwrt-feed/openwrt-feed/sdk/staging_dir/toolchain-mipsel_24kc_gcc-13.3.0_musl/usr/lib -L/home/runner/work/openwrt-feed/openwrt-feed/sdk/staging_dir/toolchain-mipsel_24kc_gcc-13.3.0_musl/lib -fuse-ld=bfd -znow -zrelro  -shared -o ip.so ip.o -llua -lm -lnl-tiny -DPIC -fpic
+mkdir -p /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-lib-ip/ipkg-install/usr/lib/lua/luci
+cp ip.so /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-lib-ip/ipkg-install/usr/lib/lua/luci/ip.so
+make[3]: Leaving directory '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-lib-ip/src'
+make[3]: Entering directory '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-lib-ip/src'
+mipsel-openwrt-linux-musl-gcc -L/home/runner/work/openwrt-feed/openwrt-feed/sdk/staging_dir/toolchain-mipsel_24kc_gcc-13.3.0_musl/usr/lib -L/home/runner/work/openwrt-feed/openwrt-feed/sdk/staging_dir/toolchain-mipsel_24kc_gcc-13.3.0_musl/lib -fuse-ld=bfd -znow -zrelro  -shared -o ip.so ip.o -llua -lm -lnl-tiny -DPIC -fpic
+mkdir -p /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-lib-ip/ipkg-install/usr/lib/lua/luci
+cp ip.so /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-lib-ip/ipkg-install/usr/lib/lua/luci/ip.so
+make[3]: Leaving directory '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-lib-ip/src'
+make[3]: Entering directory '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-lib-ip/src'
+mipsel-openwrt-linux-musl-gcc -L/home/runner/work/openwrt-feed/openwrt-feed/sdk/staging_dir/toolchain-mipsel_24kc_gcc-13.3.0_musl/usr/lib -L/home/runner/work/openwrt-feed/openwrt-feed/sdk/staging_dir/toolchain-mipsel_24kc_gcc-13.3.0_musl/lib -fuse-ld=bfd -znow -zrelro  -shared -o ip.so ip.o -llua -lm -lnl-tiny -DPIC -fpic
+mkdir -p /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-lib-ip/ipkg-install/usr/lib/lua/luci
+cp ip.so /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-lib-ip/ipkg-install/usr/lib/lua/luci/ip.so
+make[3]: Leaving directory '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-lib-ip/src'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-lib-ip/ipkg-mipsel_24kc/luci-lib-ip/usr/lib/lua/luci/ip.so: shared object
+Packaged contents of /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-lib-ip/ipkg-mipsel_24kc/luci-lib-ip into /home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/packages/mipsel_24kc/luci/luci-lib-ip_26.205.85413~cac97ed_mipsel_24kc.ipk
+time: package/feeds/luci/luci-lib-ip/compile#0.93#1.09#2.18

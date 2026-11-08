@@ -1,0 +1,27 @@
++ curl -f --connect-timeout 20 --retry 5 --location https://sources.cdn.openwrt.org/cgi-io-2026.07.21~31cb3c89.tar.zst
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0100  11690 100  11690   0      0 446.5k      0                              0100  11690 100  11690   0      0 445.3k      0                              0100  11690 100  11690   0      0 443.9k      0                              0
+Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/runner/work/openwrt-feed/openwrt-feed/sdk/staging_dir/toolchain-mipsel_24kc_gcc-13.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/cgi-io-2026.07.21~31cb3c89
+ninja: Entering directory `/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/cgi-io-2026.07.21~31cb3c89'
+[1/5] Building C object CMakeFiles/cgi-lib.dir/multipart_parser.c.o
+[2/5] Building C object CMakeFiles/cgi-lib.dir/util.c.o
+[3/5] Linking C static library libcgi-lib.a
+[4/5] Building C object CMakeFiles/cgi-io.dir/main.c.o
+[5/5] Linking C executable cgi-io
+ninja: Entering directory `/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/cgi-io-2026.07.21~31cb3c89'
+[0/1] Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/cgi-io-2026.07.21~31cb3c89/ipkg-install/usr/sbin/cgi-io
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/cgi-io-2026.07.21~31cb3c89/ipkg-mipsel_24kc/cgi-io/usr/libexec/cgi-io: executable
+Packaged contents of /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/cgi-io-2026.07.21~31cb3c89/ipkg-mipsel_24kc/cgi-io into /home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/packages/mipsel_24kc/packages/cgi-io_2026.07.21~31cb3c89-r1_mipsel_24kc.ipk
+time: package/feeds/packages/cgi-io/compile#0.94#1.31#1.94

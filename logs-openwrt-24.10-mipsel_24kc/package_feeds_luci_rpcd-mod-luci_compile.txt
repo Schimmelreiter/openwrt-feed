@@ -1,0 +1,28 @@
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+Not searching for unused variables given on the command line.
+
+-- The C compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/runner/work/openwrt-feed/openwrt-feed/sdk/staging_dir/toolchain-mipsel_24kc_gcc-13.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/rpcd-mod-luci-20240305
+ninja: Entering directory `/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/rpcd-mod-luci-20240305'
+[1/2] Building C object CMakeFiles/rpcd-mod-luci.dir/luci.c.o
+[2/2] Linking C shared module luci.so
+ninja: Entering directory `/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/rpcd-mod-luci-20240305'
+[0/1] Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/rpcd-mod-luci-20240305/ipkg-install/usr/lib/luci.so
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/rpcd-mod-luci-20240305/ipkg-mipsel_24kc/rpcd-mod-luci/usr/lib/rpcd/luci.so: shared object
+Packaged contents of /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/rpcd-mod-luci-20240305/ipkg-mipsel_24kc/rpcd-mod-luci into /home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/packages/mipsel_24kc/luci/rpcd-mod-luci_20240305-r1_mipsel_24kc.ipk
+time: package/feeds/luci/rpcd-mod-luci/compile#0.90#0.96#1.61

@@ -7,7 +7,7 @@ GitHub Actions with the official OpenWrt SDK containers
 | Package | Description |
 |---|---|
 | `llmnrd` | LLMNR (RFC 4795) name responder, so Windows finds the device by name |
-| `lltd` | LLTD responder for the Windows network map (Link Layer Topology Discovery) |
+| `lltd` | LLTD responder for the Windows network map and LLTD mappers ([source](https://github.com/Schimmelreiter/lltd)) |
 | `samba36-server`, `samba36-hotplug` | Samba 3.6 file server (small, SMB1/SMB2.0), revived from OpenWrt 19.07 |
 | `luci-app-samba`, `luci-i18n-samba-de` | LuCI page for samba36-server, including the WS-Discovery settings |
 | `wsdd2` | WS-Discovery responder (Windows "Network" folder), patched: URLs and device category in `-b` |

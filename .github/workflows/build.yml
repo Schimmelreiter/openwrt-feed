@@ -46,9 +46,12 @@ jobs:
         env:
           ARCH: ${{ matrix.arch }}-${{ matrix.release }}
           FEEDNAME: schimmelreiter
+          # build only this feed's packages (and their dependencies)
+          PACKAGES: llmnrd lltd wsdd2 samba36 luci-app-samba
+          NO_REFRESH_CHECK: '1'
+          NO_SHFMT_CHECK: '1'
           IGNORE_ERRORS: '1'
           INDEX: '1'
-          V: s
 
       - name: Collect packages
         id: collect

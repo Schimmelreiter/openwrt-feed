@@ -1,0 +1,29 @@
+# Temporary helper: fetches upstream sources/specs that are needed while
+# developing the packages in this feed and stores excerpts as an artifact.
+name: Inspect upstream sources
+
+on:
+  workflow_dispatch:
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch sources and documents
+        run: |
+          set -x
+          mkdir -p out
+          sudo apt-get -qq update && sudo apt-get -qq install -y poppler-utils >/dev/null
+          curl -fsSL -o wsdd2.tar.xz http://deb.debian.org/debian/pool/main/w/wsdd2/wsdd2_1.8.7+dfsg.orig.tar.xz
+          sha256sum wsdd2.tar.xz | tee out/wsdd2.sha256
+          mkdir wsdd2 && tar -xJf wsdd2.tar.xz -C wsdd2 --strip-components=1
+          ls -la wsdd2 > out/wsdd2-files.txt
+          cp wsdd2/*.c wsdd2/*.h wsdd2/Makefile wsdd2/*.8 out/ 2>/dev/null || true
+          curl -fsSL -o samba.tar.gz https://download.samba.org/pub/samba/stable/samba-3.6.25.tar.gz && sha256sum samba.tar.gz | tee out/samba.sha256
+          curl -fsSL -o lltd.pdf "https://winprotocoldoc.blob.core.windows.net/productionwindowsarchives/MS-LLTD/%5BMS-LLTD%5D.pdf" || true
+          [ -s lltd.pdf ] && pdftotext -layout lltd.pdf out/MS-LLTD.txt
+          ls -la out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: inspect
+          path: out/

@@ -2,10 +2,10 @@
   "version": 2,
   "architecture": "arm_cortex-a9_vfpv3-d16",
   "packages": {
-    "llmnrd": "0.7-r1",
-    "lltd": "1.0.0-r1",
-    "luci-app-samba": "26.312.53604~cee4bb9",
-    "luci-i18n-samba-de": "26.312.53604~cee4bb9",
+    "llmnrd": "0.7-r2",
+    "lltd": "1.0.0-r2",
+    "luci-app-samba": "26.312.67175~f66fdb4",
+    "luci-i18n-samba-de": "26.312.67175~f66fdb4",
     "samba36-hotplug": "3.6.25-r15",
     "samba36-server": "3.6.25-r15",
     "wsdd2": "2023.12.21~b676d8ac-r10"

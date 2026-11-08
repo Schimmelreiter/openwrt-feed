@@ -32,10 +32,12 @@ jobs:
           # Router "Link" (Linksys WRT1900ACS, mvebu)
           - arch: arm_cortex-a9_vfpv3-d16
             release: openwrt-25.12
+            sdk: v25.12.6
             ext: apk
           # Access points (Cudy AP1300, ramips mt7621)
           - arch: mipsel_24kc
             release: openwrt-24.10
+            sdk: v24.10.8
             ext: ipk
 
     steps:
@@ -44,7 +46,9 @@ jobs:
       - name: Build
         uses: openwrt/gh-action-sdk@v11
         env:
-          ARCH: ${{ matrix.arch }}-${{ matrix.release }}
+          # release containers contain the SDK; branch containers
+          # ("-openwrt-24.10") download it first, which can take very long
+          ARCH: ${{ matrix.arch }}-${{ matrix.sdk }}
           FEEDNAME: schimmelreiter
           # build only this feed's packages (and their dependencies)
           PACKAGES: llmnrd lltd wsdd2 samba36 luci-app-samba

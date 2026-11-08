@@ -1,0 +1,56 @@
+From: Schimmelreiter
+Subject: [PATCH] bootinfo: allow URLs, fix value length, add device category
+
+- Values of -b may now contain colons (needed for vendorurl/modelurl/
+  presentationurl), only a comma ends a value.
+- Do not copy the terminating comma into the value.
+- New key "category" (default "Computers") sets the PnP-X DeviceCategory
+  that Windows uses to group the device in the Network folder.
+---
+--- a/wsd.c
++++ b/wsd.c
+@@ -173,6 +173,7 @@
+ 	{ .key	= "vendorurl:",	._default = NULL},
+ 	{ .key	= "modelurl:",	._default = NULL},
+ 	{ .key	= "presentationurl:",	._default = NULL},
++	{ .key	= "category:",	._default = "Computers"},
+ 	{}
+ };
+ 
+@@ -213,8 +214,8 @@
+ 		goto exit;
+ 	val = p;
+ 
+-	/* Look for end of value. */
+-	while (*p && *p != ':' && *p != ',')
++	/* Look for end of value (values such as URLs may contain ':'). */
++	while (*p && *p != ',')
+ 		p++;
+ 	if (*p && *p != ',')
+ 		goto exit;
+@@ -232,7 +233,7 @@
+ 		return -1;
+ 
+ 	if (!bootinfo[i].value)
+-		bootinfo[i].value = strndup(val, vallen + 1);
++		bootinfo[i].value = strndup(val, vallen);
+ 
+ 	return 0;
+ 
+@@ -834,7 +835,7 @@
+ 		"<wsdp:ModelNumber>1</wsdp:ModelNumber>"
+ 		"<wsdp:ModelUrl>%s</wsdp:ModelUrl>"
+ 		"<wsdp:PresentationUrl>%s</wsdp:PresentationUrl>"
+-		"<un0:DeviceCategory>Computers</un0:DeviceCategory>"
++		"<un0:DeviceCategory>%s</un0:DeviceCategory>"
+ 		"</wsdp:ThisModel>"
+ 		"</wsx:MetadataSection>"
+ 		"<wsx:MetadataSection Dialect=\""
+@@ -863,6 +864,7 @@
+ 				get_getresp("model:"),
+ 				get_getresp("modelurl:"),
+ 				get_getresp("presentationurl:"),
++				get_getresp("category:"),
+ 				wsd_endpoint,
+ 				wsd_endpoint,
+ 				netbiosname,

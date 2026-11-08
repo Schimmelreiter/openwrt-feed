@@ -1,0 +1,51 @@
+#!/bin/sh /etc/rc.common
+# wsdd2 - stand-alone start for ksmbd/samba4 setups.
+#
+# With samba36-server from this feed, /etc/init.d/samba starts wsdd2 itself
+# (options in /etc/config/samba) and this script does nothing.
+
+START=99
+USE_PROCD=1
+
+samba_manages_wsdd2() {
+	grep -q 'wsdd2' /etc/init.d/samba 2>/dev/null
+}
+
+start_service() {
+	local smb_conf="" nb_name="" wg_name="WORKGROUP" ifname="" args=""
+
+	samba_manages_wsdd2 && return 0
+
+	. /lib/functions/network.sh
+
+	if [ -e /etc/ksmbd/ksmbd.conf ] && [ -x /etc/init.d/ksmbd ] && /etc/init.d/ksmbd running; then
+		smb_conf=/etc/ksmbd/ksmbd.conf
+	elif [ -e /etc/samba/smb.conf ] && [ -x /etc/init.d/samba4 ] && /etc/init.d/samba4 running; then
+		smb_conf=/etc/samba/smb.conf
+	fi
+	[ -n "$smb_conf" ] || {
+		logger -p daemon.info -t wsdd2 "no SMB server running, not started"
+		return 0
+	}
+
+	nb_name="$(sed -n 's/^[[:blank:]]*netbios name[[:blank:]]*=[[:blank:]]*//Ip' "$smb_conf" | head -n 1 | tr -d ' ')"
+	[ -n "$nb_name" ] || nb_name="$(sed 's/\..*//' /proc/sys/kernel/hostname)"
+	wg_name="$(sed -n 's/^[[:blank:]]*workgroup[[:blank:]]*=[[:blank:]]*//Ip' "$smb_conf" | head -n 1 | tr -d ' ')"
+	[ -n "$wg_name" ] || wg_name=WORKGROUP
+
+	network_get_device ifname lan
+
+	# llmnrd answers LLMNR already: run wsdd2 for WS-Discovery only
+	[ -x /etc/init.d/llmnrd ] && /etc/init.d/llmnrd enabled && args="-w"
+
+	procd_open_instance
+	procd_set_param command /usr/bin/wsdd2 $args -N "$nb_name" -G "$wg_name"
+	[ -n "$ifname" ] && procd_append_param command -i "$ifname"
+	procd_set_param respawn
+	procd_set_param file "$smb_conf"
+	procd_close_instance
+}
+
+service_triggers() {
+	procd_add_reload_trigger "system" "samba4" "ksmbd"
+}

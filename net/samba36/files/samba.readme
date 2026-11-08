@@ -1,0 +1,43 @@
+/etc/config/samba - Samba 3.6 (samba36-server) and WS-Discovery (wsdd2)
+=======================================================================
+UCI files lose their comments when LuCI or "uci commit" writes them, so the
+explanations live here. LuCI: Services -> Network Shares.
+
+/etc/init.d/samba builds /var/etc/smb.conf from /etc/samba/smb.conf.template
+(|NAME|, |WORKGROUP|, |DESCRIPTION|, |INTERFACES|, |CHARSET| are replaced)
+plus the [homes] and sambashare sections, then starts:
+  smbd   always
+  nmbd   only if the template does not contain "disable netbios = yes"
+  wsdd2  if the package wsdd2 is installed and option wsdd2 is '1'
+
+config samba
+  name            NetBIOS name (default: system host name)
+  workgroup       workgroup (default: system host name)
+  description     server string
+  charset         unix/display charset (default UTF-8)
+  homes           '1' = share the users' home directories
+  interface       logical networks for |INTERFACES| (default "loopback lan");
+                  with "bind interfaces only = yes" in the template Samba
+                  listens only on their IPv4 and IPv6 addresses
+  wsdd2           '1' = run wsdd2 (default when installed). It announces the
+                  server to the Windows "Network" folder with the same name
+                  and workgroup, on the first non-loopback interface above.
+                  If llmnrd is enabled, wsdd2 runs with -w (no LLMNR, llmnrd
+                  does that).
+  wsdd2_vendor    \
+  wsdd2_model      | shown in the Windows device properties
+  wsdd2_serial     | (vendor/model default to /tmp/sysinfo/model)
+  wsdd2_sku       /
+  wsdd2_vendorurl, wsdd2_modelurl
+                  links in the device properties
+  wsdd2_presentationurl
+                  "web page" of the device, e.g. http://192.168.75.1/
+  wsdd2_category  PnP-X device category that Windows uses for grouping and
+                  the icon (default "Computers"; other values to try e.g.
+                  "Network.Router", "Network.Gateway", "MediaDevices").
+                  Values must not contain commas.
+
+config sambashare
+  name, path, users, read_only, guest_ok, create_mask, dir_mask, browseable
+
+Passwords: smbpasswd -a <user>   (file /etc/samba/smbpasswd)

@@ -1,0 +1,136 @@
+# Builds all packages of this feed with the official OpenWrt SDK containers
+# and publishes them:
+#   - as GitHub release "packages-<release>-<arch>" (rolling, replaced on
+#     every push to main), for manual download and installation
+#   - on the branch "packages" (bin/<release>/<arch>/...), so the feed can
+#     also be fetched with plain git
+name: Build packages
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - '**.md'
+      - '.github/workflows/inspect.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: ${{ matrix.release }} ${{ matrix.arch }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          # Router "Link" (Linksys WRT1900ACS, mvebu)
+          - arch: arm_cortex-a9_vfpv3-d16
+            release: openwrt-25.12
+            ext: apk
+          # Access points (Cudy AP1300, ramips mt7621)
+          - arch: mipsel_24kc
+            release: openwrt-24.10
+            ext: ipk
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build
+        uses: openwrt/gh-action-sdk@v11
+        env:
+          ARCH: ${{ matrix.arch }}-${{ matrix.release }}
+          FEEDNAME: schimmelreiter
+          IGNORE_ERRORS: '1'
+          INDEX: '1'
+          V: s
+
+      - name: Collect packages
+        id: collect
+        run: |
+          src="bin/packages/${{ matrix.arch }}/schimmelreiter"
+          out="dist/${{ matrix.release }}/${{ matrix.arch }}"
+          mkdir -p "$out"
+          ls -la "$src" || true
+          cp -v "$src"/*.${{ matrix.ext }} "$out"/ 2>/dev/null || true
+          cp -v "$src"/packages.adb "$src"/Packages* "$src"/index.json "$out"/ 2>/dev/null || true
+          # build logs of failed packages, to make errors visible
+          mkdir -p dist-logs
+          [ -d logs ] && cp -r logs dist-logs/ || true
+          ls -la "$out"
+
+      - name: Check that every package was built
+        run: |
+          out="dist/${{ matrix.release }}/${{ matrix.arch }}"
+          missing=0
+          for p in $(find . -path ./dist -prune -o -name Makefile -path './*/*/Makefile' -print \
+                     | xargs grep -h 'BuildPackage\|^LUCI_TITLE' | sed -n 's/.*BuildPackage,\([^)]*\)).*/\1/p'); do
+            ls "$out"/"$p"[-_]*.${{ matrix.ext }} >/dev/null 2>&1 || { echo "::error::package $p was not built"; missing=1; }
+          done
+          for d in luci/*/; do
+            p=$(basename "$d")
+            ls "$out"/"$p"[-_]*.${{ matrix.ext }} >/dev/null 2>&1 || { echo "::error::package $p was not built"; missing=1; }
+          done
+          if [ "$missing" = 1 ]; then
+            for f in $(find dist-logs -name 'compile.txt'); do
+              echo "::group::$f"; tail -n 150 "$f"; echo "::endgroup::"
+            done
+          fi
+          exit "$missing"
+
+      - name: Publish build logs (branch "logs")
+        if: always()
+        run: |
+          [ -d dist-logs/logs ] || exit 0
+          dir="logs-${{ matrix.release }}-${{ matrix.arch }}"
+          git clone -q --depth 1 --branch logs "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" logrepo 2>/dev/null \
+            || { mkdir logrepo && git -C logrepo init -q -b logs; }
+          rm -rf "logrepo/$dir" && mkdir -p "logrepo/$dir"
+          find dist-logs/logs -name 'compile.txt' | while read -r f; do
+            t="logrepo/$dir/$(echo "$f" | sed 's|dist-logs/logs/||; s|/|_|g')"
+            tail -n 400 "$f" > "$t"
+          done
+          cd logrepo
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add -A && git commit -qm "Build logs ${{ matrix.release }} ${{ matrix.arch }} (${{ github.sha }})" || exit 0
+          for i in 1 2 3; do
+            git pull -q --rebase origin logs 2>/dev/null || true
+            git push -q origin HEAD:logs && break
+            sleep 5
+          done
+
+      - name: Publish packages (branch "packages")
+        if: github.event_name != 'pull_request'
+        run: |
+          git clone -q --depth 1 --branch packages "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" pkgrepo 2>/dev/null \
+            || { mkdir pkgrepo && git -C pkgrepo init -q -b packages; }
+          dir="pkgrepo/${{ matrix.release }}/${{ matrix.arch }}"
+          rm -rf "$dir" && mkdir -p "$dir"
+          cp -v dist/${{ matrix.release }}/${{ matrix.arch }}/* "$dir"/
+          cd pkgrepo
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add -A && git commit -qm "Packages ${{ matrix.release }} ${{ matrix.arch }} (${{ github.sha }})" || exit 0
+          for i in 1 2 3; do
+            git pull -q --rebase origin packages 2>/dev/null || true
+            git push -q origin HEAD:packages && break
+            sleep 5
+          done
+
+      - name: Publish packages (release)
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="packages-${{ matrix.release }}-${{ matrix.arch }}"
+          files=$(ls dist/${{ matrix.release }}/${{ matrix.arch }}/*.${{ matrix.ext }} 2>/dev/null) || exit 0
+          gh release delete "$tag" --yes --cleanup-tag 2>/dev/null || true
+          gh release create "$tag" $files \
+            --title "Packages for ${{ matrix.release }} (${{ matrix.arch }})" \
+            --notes "Built from ${{ github.sha }} with the official OpenWrt SDK. Install with \`apk add --allow-untrusted <file>.apk\` (25.12) or \`opkg install <file>.ipk\` (24.10)."

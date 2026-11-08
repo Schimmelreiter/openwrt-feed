@@ -1,0 +1,49 @@
+#!/bin/sh /etc/rc.common
+# llmnrd - one procd instance per configured network (see /etc/config/llmnrd)
+
+START=95
+USE_PROCD=1
+
+start_instance() {
+	local net="$1" hostname="$2" ipv6="$3"
+	local device
+
+	network_get_device device "$net" || {
+		logger -t llmnrd "network '$net' has no device, skipped"
+		return 0
+	}
+
+	procd_open_instance "$net"
+	procd_set_param command /usr/sbin/llmnrd -s -i "$device"
+	[ -n "$hostname" ] && procd_append_param command -H "$hostname"
+	[ "$ipv6" = 1 ] && procd_append_param command -6
+	procd_set_param respawn
+	procd_close_instance
+}
+
+start_service() {
+	local enabled hostname ipv6 interfaces net
+
+	config_load llmnrd
+	config_get_bool enabled main enabled 1
+	[ "$enabled" = 1 ] || return 0
+	config_get hostname main hostname
+	config_get_bool ipv6 main ipv6 1
+	config_get interfaces main interface lan
+
+	. /lib/functions/network.sh
+	for net in $interfaces; do
+		start_instance "$net" "$hostname" "$ipv6"
+	done
+}
+
+service_triggers() {
+	local interfaces net
+
+	procd_add_reload_trigger llmnrd system
+	config_load llmnrd
+	config_get interfaces main interface lan
+	for net in $interfaces; do
+		procd_add_reload_interface_trigger "$net"
+	done
+}

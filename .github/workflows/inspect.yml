@@ -15,8 +15,16 @@ jobs:
         run: |
           mkdir -p out
           tok=$(curl -fsSL "https://ghcr.io/token?scope=repository:openwrt/sdk:pull" | python3 -c 'import json,sys; print(json.load(sys.stdin)["token"])')
-          url="https://ghcr.io/v2/openwrt/sdk/tags/list?n=100000"
-          curl -fsSL -H "Authorization: Bearer $tok" "$url" | python3 -c 'import json,sys; [print(t) for t in json.load(sys.stdin)["tags"]]' > out/all-tags.txt
+          : > out/all-tags.txt
+          last=""
+          while :; do
+            url="https://ghcr.io/v2/openwrt/sdk/tags/list?n=1000${last:+&last=$last}"
+            curl -fsSL -H "Authorization: Bearer $tok" "$url" | python3 -c 'import json,sys; [print(t) for t in (json.load(sys.stdin).get("tags") or [])]' > page.txt
+            [ -s page.txt ] || break
+            cat page.txt >> out/all-tags.txt
+            n=$(wc -l < page.txt); last=$(tail -n 1 page.txt)
+            [ "$n" -lt 1000 ] && break
+          done
           grep -E '^(mipsel_24kc|arm_cortex-a9_vfpv3-d16)-' out/all-tags.txt | sort -V > out/tags.txt
           wc -l out/all-tags.txt; cat out/tags.txt | tail -60
       - name: Publish to the 'inspect' branch

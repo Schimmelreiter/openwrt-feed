@@ -21,7 +21,7 @@ lltd-1.0.0.tar.zst: Download from https://github.com/Schimmelreiter/lltd.git fai
 lltd-1.0.0.tar.zst: Requires sha256sum for verification
 Checking out files from the git repository...
 Cloning into 'lltd-1.0.0'...
-Note: switching to '2047047b97dc6e24594c7d82d1509aa42cf322a7'.
+Note: switching to '090143ecf0569145976021f7126acf6ff8432417'.
 
 You are in 'detached HEAD' state. You can look around, make experimental
 changes and commit them, and you can discard any commits you make in this
@@ -38,11 +38,11 @@ Or undo this operation with:
 
 Turn off this advice by setting config variable advice.detachedHead to false
 
-HEAD is now at 2047047 Register Train sources as unicast addresses on non-bridge interfaces
+HEAD is now at 090143e Observation self-check (--observe auto|yes|no)
 Generating formal git archive (apply .gitattributes rules)
 Packing checkout...
 make[3]: Entering directory '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/lltd-1.0.0'
 arm-openwrt-linux-muslgnueabi-gcc  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -mfloat-abi=hard -ffile-prefix-map=/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/lltd-1.0.0=lltd-1.0.0 -Wl,-z,max-page-size=4096 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -I/home/runner/work/openwrt-feed/openwrt-feed/sdk/staging_dir/toolchain-arm_cortex-a9+vfpv3-d16_gcc-14.3.0_musl_eabi/usr/include -I/home/runner/work/openwrt-feed/openwrt-feed/sdk/staging_dir/toolchain-arm_cortex-a9+vfpv3-d16_gcc-14.3.0_musl_eabi/include -I/home/runner/work/openwrt-feed/openwrt-feed/sdk/staging_dir/toolchain-arm_cortex-a9+vfpv3-d16_gcc-14.3.0_musl_eabi/include/fortify  -std=gnu99 -Wall -Wextra -Wno-unused-parameter -DLLTD_VERSION_STRING='"1.0.0"' -L/home/runner/work/openwrt-feed/openwrt-feed/sdk/staging_dir/toolchain-arm_cortex-a9+vfpv3-d16_gcc-14.3.0_musl_eabi/usr/lib -L/home/runner/work/openwrt-feed/openwrt-feed/sdk/staging_dir/toolchain-arm_cortex-a9+vfpv3-d16_gcc-14.3.0_musl_eabi/lib -fuse-ld=bfd -zmax-page-size=4096 -znow -zrelro  -o lltd src/frame.c src/responder.c src/sysinfo.c src/main.c src/icon_default.c 
 make[3]: Leaving directory '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/lltd-1.0.0'
 rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/lltd-1.0.0/ipkg-arm_cortex-a9_vfpv3-d16/lltd/usr/sbin/lltd: executable
-time: package/feeds/schimmelreiter/lltd/compile#1.40#1.23#3.91
+time: package/feeds/schimmelreiter/lltd/compile#0.97#1.06#3.50

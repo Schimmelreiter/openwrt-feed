@@ -1,2 +1,400 @@
-bash: -c: line 1: unexpected EOF while looking for matching `"'
-time: package/feeds/schimmelreiter/samba36/compile#0.37#0.49#0.65
+client/client.c: In function 'perms_to_string':
+include/safe_string.h:87:42: warning: 'sizeof' on array function parameter 'permstr' will return size of 'char *' [-Wsizeof-array-argument]
+   87 | #define CHECK_STRING_SIZE(d, len) (sizeof(d) != (len) && sizeof(d) != sizeof(char *))
+      |                                          ^
+include/safe_string.h:172:6: note: in expansion of macro 'CHECK_STRING_SIZE'
+  172 |     (CHECK_STRING_SIZE(d, max_len+1) \
+      |      ^~~~~~~~~~~~~~~~~
+include/safe_string.h:126:9: note: in expansion of macro 'safe_strcpy_fn2'
+  126 |         safe_strcpy_fn2(SAFE_STRING_FUNCTION_NAME, SAFE_STRING_LINE, \
+      |         ^~~~~~~~~~~~~~~
+include/safe_string.h:100:22: note: in expansion of macro 'safe_strcpy'
+  100 | #define fstrcpy(d,s) safe_strcpy((d),(s),sizeof(fstring)-1)
+      |                      ^~~~~~~~~~~
+client/client.c:3192:9: note: in expansion of macro 'fstrcpy'
+ 3192 |         fstrcpy(permstr, "---");
+      |         ^~~~~~~
+client/client.c:3190:38: note: declared here
+ 3190 | static char *perms_to_string(fstring permstr, unsigned char perms)
+      |                              ~~~~~~~~^~~~~~~
+include/safe_string.h:87:64: warning: 'sizeof' on array function parameter 'permstr' will return size of 'char *' [-Wsizeof-array-argument]
+   87 | #define CHECK_STRING_SIZE(d, len) (sizeof(d) != (len) && sizeof(d) != sizeof(char *))
+      |                                                                ^
+include/safe_string.h:172:6: note: in expansion of macro 'CHECK_STRING_SIZE'
+  172 |     (CHECK_STRING_SIZE(d, max_len+1) \
+      |      ^~~~~~~~~~~~~~~~~
+include/safe_string.h:126:9: note: in expansion of macro 'safe_strcpy_fn2'
+  126 |         safe_strcpy_fn2(SAFE_STRING_FUNCTION_NAME, SAFE_STRING_LINE, \
+      |         ^~~~~~~~~~~~~~~
+include/safe_string.h:100:22: note: in expansion of macro 'safe_strcpy'
+  100 | #define fstrcpy(d,s) safe_strcpy((d),(s),sizeof(fstring)-1)
+      |                      ^~~~~~~~~~~
+client/client.c:3192:9: note: in expansion of macro 'fstrcpy'
+ 3192 |         fstrcpy(permstr, "---");
+      |         ^~~~~~~
+client/client.c:3190:38: note: declared here
+ 3190 | static char *perms_to_string(fstring permstr, unsigned char perms)
+      |                              ~~~~~~~~^~~~~~~
+Compiling ../libcli/security/display_sec.c
+Compiling utils/net.c
+Compiling utils/net_ads.c
+Compiling utils/net_help.c
+Compiling utils/net_rap.c
+Compiling utils/net_rpc.c
+Compiling utils/net_rpc_samsync.c
+Compiling utils/net_rpc_join.c
+Compiling utils/net_time.c
+Compiling utils/net_lookup.c
+Compiling utils/net_cache.c
+Compiling utils/net_groupmap.c
+Compiling utils/net_idmap.c
+Compiling utils/net_idmap_check.c
+Compiling utils/net_status.c
+Compiling utils/net_rpc_printer.c
+Compiling utils/net_rpc_rights.c
+Compiling utils/net_rpc_service.c
+In file included from include/includes.h:545,
+                 from utils/net_rpc_rights.c:20:
+utils/net_rpc_rights.c: In function 'sid_to_name':
+include/safe_string.h:87:42: warning: 'sizeof' on array function parameter 'name' will return size of 'char *' [-Wsizeof-array-argument]
+   87 | #define CHECK_STRING_SIZE(d, len) (sizeof(d) != (len) && sizeof(d) != sizeof(char *))
+      |                                          ^
+include/safe_string.h:172:6: note: in expansion of macro 'CHECK_STRING_SIZE'
+  172 |     (CHECK_STRING_SIZE(d, max_len+1) \
+      |      ^~~~~~~~~~~~~~~~~
+include/safe_string.h:126:9: note: in expansion of macro 'safe_strcpy_fn2'
+  126 |         safe_strcpy_fn2(SAFE_STRING_FUNCTION_NAME, SAFE_STRING_LINE, \
+      |         ^~~~~~~~~~~~~~~
+include/safe_string.h:100:22: note: in expansion of macro 'safe_strcpy'
+  100 | #define fstrcpy(d,s) safe_strcpy((d),(s),sizeof(fstring)-1)
+      |                      ^~~~~~~~~~~
+utils/net_rpc_rights.c:54:25: note: in expansion of macro 'fstrcpy'
+   54 |                         fstrcpy( name, names[0] );
+      |                         ^~~~~~~
+utils/net_rpc_rights.c:34:41: note: declared here
+   34 |                                 fstring name)
+      |                                 ~~~~~~~~^~~~
+include/safe_string.h:87:64: warning: 'sizeof' on array function parameter 'name' will return size of 'char *' [-Wsizeof-array-argument]
+   87 | #define CHECK_STRING_SIZE(d, len) (sizeof(d) != (len) && sizeof(d) != sizeof(char *))
+      |                                                                ^
+include/safe_string.h:172:6: note: in expansion of macro 'CHECK_STRING_SIZE'
+  172 |     (CHECK_STRING_SIZE(d, max_len+1) \
+      |      ^~~~~~~~~~~~~~~~~
+include/safe_string.h:126:9: note: in expansion of macro 'safe_strcpy_fn2'
+  126 |         safe_strcpy_fn2(SAFE_STRING_FUNCTION_NAME, SAFE_STRING_LINE, \
+      |         ^~~~~~~~~~~~~~~
+include/safe_string.h:100:22: note: in expansion of macro 'safe_strcpy'
+  100 | #define fstrcpy(d,s) safe_strcpy((d),(s),sizeof(fstring)-1)
+      |                      ^~~~~~~~~~~
+utils/net_rpc_rights.c:54:25: note: in expansion of macro 'fstrcpy'
+   54 |                         fstrcpy( name, names[0] );
+      |                         ^~~~~~~
+utils/net_rpc_rights.c:34:41: note: declared here
+   34 |                                 fstring name)
+      |                                 ~~~~~~~~^~~~
+Compiling utils/net_rpc_registry.c
+Compiling utils/net_usershare.c
+Compiling utils/netlookup.c
+Compiling utils/net_sam.c
+Compiling utils/net_rpc_shell.c
+Compiling utils/net_util.c
+Compiling utils/net_rpc_sh_acct.c
+Compiling utils/net_rpc_audit.c
+Compiling utils/net_dns.c
+Compiling utils/net_ads_gpo.c
+Compiling utils/net_conf.c
+Compiling utils/net_join.c
+Compiling utils/net_user.c
+Compiling utils/net_group.c
+Compiling utils/net_file.c
+Compiling utils/net_registry.c
+Compiling utils/net_dom.c
+Compiling utils/net_share.c
+Compiling utils/net_g_lock.c
+Compiling utils/net_serverid.c
+Compiling utils/net_printing.c
+Compiling utils/net_eventlog.c
+Compiling utils/net_rpc_trust.c
+Compiling librpc/gen_ndr/ndr_preg.c
+Compiling ../librpc/ndr/ndr_preg.c
+Compiling librpc/gen_ndr/ndr_drsuapi_c.c
+Compiling librpc/gen_ndr/ndr_initshutdown_c.c
+Compiling librpc/gen_ndr/ndr_dssetup_c.c
+Compiling librpc/gen_ndr/ndr_svcctl_c.c
+Compiling librpc/gen_ndr/ndr_wkssvc_c.c
+Compiling registry/reg_parse.c
+Compiling registry/reg_format.c
+Compiling registry/reg_parse_internal.c
+Compiling registry/reg_import.c
+Compiling lib/cbuf.c
+Compiling lib/srprs.c
+Compiling utils/net_registry_util.c
+Compiling utils/net_help_common.c
+Compiling ../lib/addns/dnsrecord.c
+Compiling ../lib/addns/dnsutils.c
+Compiling ../lib/addns/dnssock.c
+Compiling ../lib/addns/dnsgss.c
+Compiling ../lib/addns/dnsmarshall.c
+Compiling ../lib/addns/error.c
+Compiling ../libgpo/gpo_ldap.c
+Compiling ../libgpo/gpo_ini.c
+Compiling ../libgpo/gpo_util.c
+Compiling ../libgpo/gpo_fetch.c
+Compiling libgpo/gpo_filesync.c
+Compiling ../libgpo/gpo_sec.c
+Compiling libgpo/gpo_reg.c
+Compiling ../libgpo/gpext/gpext.c
+Compiling ../lib/iniparser_build/iniparser.c
+Compiling ../lib/iniparser_build/dictionary.c
+Compiling ../lib/iniparser_build/strlib.c
+Compiling libnet/libnet_dssync.c
+Compiling libnet/libnet_dssync_passdb.c
+Compiling libnet/libnet_dssync_keytab.c
+Compiling ../libcli/drsuapi/repl_decrypt.c
+Compiling libnet/libnet_samsync.c
+Compiling libnet/libnet_samsync_ldif.c
+Compiling libnet/libnet_samsync_passdb.c
+Compiling libnet/libnet_samsync_display.c
+Compiling libnet/libnet_samsync_keytab.c
+Compiling ../libcli/samsync/decrypt.c
+Compiling lib/netapi/netapi.c
+Compiling lib/netapi/cm.c
+Compiling librpc/gen_ndr/ndr_libnetapi.c
+Compiling lib/netapi/libnetapi.c
+Compiling lib/netapi/joindomain.c
+Compiling lib/netapi/serverinfo.c
+Compiling lib/netapi/getdc.c
+Compiling lib/netapi/user.c
+Compiling lib/netapi/group.c
+Compiling lib/netapi/localgroup.c
+Compiling lib/netapi/samr.c
+Compiling lib/netapi/sid.c
+Compiling lib/netapi/share.c
+Compiling lib/netapi/file.c
+Compiling lib/netapi/shutdown.c
+Compiling lib/netapi/netlogon.c
+Compiling client/smbspool.c
+Compiling utils/testparm.c
+Compiling utils/status.c
+Compiling utils/status_profile.c
+Compiling utils/smbget.c
+Compiling libsmb/libsmb_cache.c
+Compiling libsmb/libsmb_compat.c
+Compiling libsmb/libsmb_context.c
+Compiling libsmb/libsmb_dir.c
+Compiling libsmb/libsmb_file.c
+libsmb/libsmb_dir.c: In function 'SMBC_getdents_ctx':
+libsmb/libsmb_dir.c:1126:37: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+ 1126 |                 while((rem > 0) && ((unsigned long long)ndir & (sizeof(void*) - 1))) {
+      |                                     ^
+Compiling libsmb/libsmb_misc.c
+Compiling libsmb/libsmb_path.c
+Compiling libsmb/libsmb_printjob.c
+Compiling libsmb/libsmb_server.c
+Compiling libsmb/libsmb_stat.c
+Compiling libsmb/libsmb_xattr.c
+Compiling libsmb/libsmb_setget.c
+Compiling utils/smbta-util.c
+Compiling utils/smbcontrol.c
+Compiling utils/smbtree.c
+Compiling ../lib/tdb/tools/tdbbackup.c
+Compiling utils/nmblookup.c
+Compiling utils/pdbedit.c
+Compiling ../lib/tdb/tools/tdbdump.c
+Compiling ../lib/tdb/tools/tdbrestore.c
+Compiling ../lib/tdb/tools/tdbtool.c
+Compiling rpcclient/rpcclient.c
+Compiling rpcclient/cmd_lsarpc.c
+Compiling rpcclient/cmd_samr.c
+Compiling rpcclient/cmd_spoolss.c
+Compiling rpcclient/cmd_netlogon.c
+Compiling rpcclient/cmd_srvsvc.c
+Compiling rpcclient/cmd_dfs.c
+Compiling rpcclient/cmd_epmapper.c
+Compiling rpcclient/cmd_dssetup.c
+Compiling rpcclient/cmd_echo.c
+Compiling rpcclient/cmd_shutdown.c
+Compiling rpcclient/cmd_test.c
+Compiling rpcclient/cmd_wkssvc.c
+Compiling rpcclient/cmd_ntsvcs.c
+Compiling rpcclient/cmd_drsuapi.c
+Compiling rpcclient/cmd_eventlog.c
+Compiling rpcclient/cmd_winreg.c
+Compiling librpc/gen_ndr/ndr_eventlog_c.c
+Compiling librpc/gen_ndr/ndr_ntsvcs_c.c
+Compiling librpc/gen_ndr/ndr_dfs_c.c
+Compiling librpc/gen_ndr/ndr_echo_c.c
+Compiling utils/smbcacls.c
+In file included from include/includes.h:545,
+                 from utils/smbcacls.c:24:
+utils/smbcacls.c: In function 'SidToString':
+include/safe_string.h:87:42: warning: 'sizeof' on array function parameter 'str' will return size of 'char *' [-Wsizeof-array-argument]
+   87 | #define CHECK_STRING_SIZE(d, len) (sizeof(d) != (len) && sizeof(d) != sizeof(char *))
+      |                                          ^
+include/safe_string.h:172:6: note: in expansion of macro 'CHECK_STRING_SIZE'
+  172 |     (CHECK_STRING_SIZE(d, max_len+1) \
+      |      ^~~~~~~~~~~~~~~~~
+include/safe_string.h:126:9: note: in expansion of macro 'safe_strcpy_fn2'
+  126 |         safe_strcpy_fn2(SAFE_STRING_FUNCTION_NAME, SAFE_STRING_LINE, \
+      |         ^~~~~~~~~~~~~~~
+include/safe_string.h:100:22: note: in expansion of macro 'safe_strcpy'
+  100 | #define fstrcpy(d,s) safe_strcpy((d),(s),sizeof(fstring)-1)
+      |                      ^~~~~~~~~~~
+utils/smbcacls.c:198:17: note: in expansion of macro 'fstrcpy'
+  198 |                 fstrcpy(str, name);
+      |                 ^~~~~~~
+utils/smbcacls.c:174:56: note: declared here
+  174 | static void SidToString(struct cli_state *cli, fstring str, const struct dom_sid *sid)
+      |                                                ~~~~~~~~^~~
+include/safe_string.h:87:64: warning: 'sizeof' on array function parameter 'str' will return size of 'char *' [-Wsizeof-array-argument]
+   87 | #define CHECK_STRING_SIZE(d, len) (sizeof(d) != (len) && sizeof(d) != sizeof(char *))
+      |                                                                ^
+include/safe_string.h:172:6: note: in expansion of macro 'CHECK_STRING_SIZE'
+  172 |     (CHECK_STRING_SIZE(d, max_len+1) \
+      |      ^~~~~~~~~~~~~~~~~
+include/safe_string.h:126:9: note: in expansion of macro 'safe_strcpy_fn2'
+  126 |         safe_strcpy_fn2(SAFE_STRING_FUNCTION_NAME, SAFE_STRING_LINE, \
+      |         ^~~~~~~~~~~~~~~
+include/safe_string.h:100:22: note: in expansion of macro 'safe_strcpy'
+  100 | #define fstrcpy(d,s) safe_strcpy((d),(s),sizeof(fstring)-1)
+      |                      ^~~~~~~~~~~
+utils/smbcacls.c:198:17: note: in expansion of macro 'fstrcpy'
+  198 |                 fstrcpy(str, name);
+      |                 ^~~~~~~
+utils/smbcacls.c:174:56: note: declared here
+  174 | static void SidToString(struct cli_state *cli, fstring str, const struct dom_sid *sid)
+      |                                                ~~~~~~~~^~~
+Compiling utils/profiles.c
+Compiling utils/ntlm_auth.c
+utils/smbcacls.c: In function 'main':
+utils/smbcacls.c:1309:43: warning: '%s' directive argument is null [-Wformat-overflow=]
+ 1309 |                 printf("Invalid argument: %s\n", share);
+      |                                           ^~
+In file included from include/includes.h:545,
+                 from utils/ntlm_auth.c:26:
+utils/ntlm_auth.c: In function 'parse_ntlm_auth_domain_user':
+include/safe_string.h:87:42: warning: 'sizeof' on array function parameter 'user' will return size of 'char *' [-Wsizeof-array-argument]
+   87 | #define CHECK_STRING_SIZE(d, len) (sizeof(d) != (len) && sizeof(d) != sizeof(char *))
+      |                                          ^
+include/safe_string.h:172:6: note: in expansion of macro 'CHECK_STRING_SIZE'
+  172 |     (CHECK_STRING_SIZE(d, max_len+1) \
+      |      ^~~~~~~~~~~~~~~~~
+include/safe_string.h:126:9: note: in expansion of macro 'safe_strcpy_fn2'
+  126 |         safe_strcpy_fn2(SAFE_STRING_FUNCTION_NAME, SAFE_STRING_LINE, \
+      |         ^~~~~~~~~~~~~~~
+include/safe_string.h:100:22: note: in expansion of macro 'safe_strcpy'
+  100 | #define fstrcpy(d,s) safe_strcpy((d),(s),sizeof(fstring)-1)
+      |                      ^~~~~~~~~~~
+utils/ntlm_auth.c:254:9: note: in expansion of macro 'fstrcpy'
+  254 |         fstrcpy(user, p+1);
+      |         ^~~~~~~
+utils/ntlm_auth.c:245:46: note: declared here
+  245 |                                      fstring user)
+      |                                      ~~~~~~~~^~~~
+include/safe_string.h:87:64: warning: 'sizeof' on array function parameter 'user' will return size of 'char *' [-Wsizeof-array-argument]
+   87 | #define CHECK_STRING_SIZE(d, len) (sizeof(d) != (len) && sizeof(d) != sizeof(char *))
+      |                                                                ^
+include/safe_string.h:172:6: note: in expansion of macro 'CHECK_STRING_SIZE'
+  172 |     (CHECK_STRING_SIZE(d, max_len+1) \
+      |      ^~~~~~~~~~~~~~~~~
+include/safe_string.h:126:9: note: in expansion of macro 'safe_strcpy_fn2'
+  126 |         safe_strcpy_fn2(SAFE_STRING_FUNCTION_NAME, SAFE_STRING_LINE, \
+      |         ^~~~~~~~~~~~~~~
+include/safe_string.h:100:22: note: in expansion of macro 'safe_strcpy'
+  100 | #define fstrcpy(d,s) safe_strcpy((d),(s),sizeof(fstring)-1)
+      |                      ^~~~~~~~~~~
+utils/ntlm_auth.c:254:9: note: in expansion of macro 'fstrcpy'
+  254 |         fstrcpy(user, p+1);
+      |         ^~~~~~~
+utils/ntlm_auth.c:245:46: note: declared here
+  245 |                                      fstring user)
+      |                                      ~~~~~~~~^~~~
+include/safe_string.h:87:42: warning: 'sizeof' on array function parameter 'domain' will return size of 'char *' [-Wsizeof-array-argument]
+   87 | #define CHECK_STRING_SIZE(d, len) (sizeof(d) != (len) && sizeof(d) != sizeof(char *))
+      |                                          ^
+include/safe_string.h:172:6: note: in expansion of macro 'CHECK_STRING_SIZE'
+  172 |     (CHECK_STRING_SIZE(d, max_len+1) \
+      |      ^~~~~~~~~~~~~~~~~
+include/safe_string.h:126:9: note: in expansion of macro 'safe_strcpy_fn2'
+  126 |         safe_strcpy_fn2(SAFE_STRING_FUNCTION_NAME, SAFE_STRING_LINE, \
+      |         ^~~~~~~~~~~~~~~
+include/safe_string.h:100:22: note: in expansion of macro 'safe_strcpy'
+  100 | #define fstrcpy(d,s) safe_strcpy((d),(s),sizeof(fstring)-1)
+      |                      ^~~~~~~~~~~
+utils/ntlm_auth.c:255:9: note: in expansion of macro 'fstrcpy'
+  255 |         fstrcpy(domain, domuser);
+      |         ^~~~~~~
+utils/ntlm_auth.c:244:70: note: declared here
+  244 | static bool parse_ntlm_auth_domain_user(const char *domuser, fstring domain,
+      |                                                              ~~~~~~~~^~~~~~
+include/safe_string.h:87:64: warning: 'sizeof' on array function parameter 'domain' will return size of 'char *' [-Wsizeof-array-argument]
+   87 | #define CHECK_STRING_SIZE(d, len) (sizeof(d) != (len) && sizeof(d) != sizeof(char *))
+      |                                                                ^
+include/safe_string.h:172:6: note: in expansion of macro 'CHECK_STRING_SIZE'
+  172 |     (CHECK_STRING_SIZE(d, max_len+1) \
+      |      ^~~~~~~~~~~~~~~~~
+include/safe_string.h:126:9: note: in expansion of macro 'safe_strcpy_fn2'
+  126 |         safe_strcpy_fn2(SAFE_STRING_FUNCTION_NAME, SAFE_STRING_LINE, \
+      |         ^~~~~~~~~~~~~~~
+include/safe_string.h:100:22: note: in expansion of macro 'safe_strcpy'
+  100 | #define fstrcpy(d,s) safe_strcpy((d),(s),sizeof(fstring)-1)
+      |                      ^~~~~~~~~~~
+utils/ntlm_auth.c:255:9: note: in expansion of macro 'fstrcpy'
+  255 |         fstrcpy(domain, domuser);
+      |         ^~~~~~~
+utils/ntlm_auth.c:244:70: note: declared here
+  244 | static bool parse_ntlm_auth_domain_user(const char *domuser, fstring domain,
+      |                                                              ~~~~~~~~^~~~~~
+Compiling utils/ntlm_auth_diagnostics.c
+Compiling utils/sharesec.c
+Compiling utils/smbcquotas.c
+Compiling utils/eventlogadm.c
+Linking non-shared library bin/libtevent.a
+utils/smbcquotas.c: In function 'main':
+utils/smbcquotas.c:703:43: warning: '%s' directive argument is null [-Wformat-overflow=]
+  703 |                 printf("Invalid argument: %s\n", share);
+      |                                           ^~
+Compiling nmbd/nmbd.c.c
+Compiling smbd/build_options.c
+Compiling smbd/server.c.c
+Compiling utils/owrt_smbpasswd.c.c
+Linking non-shared library bin/libtdb.a
+Linking non-shared library bin/libwbclient.a
+Linking non-shared library bin/libnetapi.a
+utils/owrt_smbpasswd.c: In function 'md4hash':
+utils/owrt_smbpasswd.c:42:9: warning: implicit declaration of function 'mdfour' [-Wimplicit-function-declaration]
+   42 |         mdfour(p16, (unsigned char *)wpwd, len);
+      |         ^~~~~~
+Linking bin/testparm
+Linking bin/smbstatus
+Linking bin/smbget
+Linking bin/smbta-util
+Linking bin/smbcontrol
+Linking bin/smbtree
+Linking bin/tdbbackup
+Linking bin/nmblookup
+Linking bin/pdbedit
+Linking bin/tdbdump
+Linking bin/tdbrestore
+Linking bin/tdbtool
+Linking bin/smbpasswd
+Linking bin/rpcclient
+Linking bin/smbcacls
+Linking bin/profiles
+Linking bin/ntlm_auth
+Linking bin/sharesec
+Linking bin/smbcquotas
+Linking non-shared library bin/libaddns.a
+Linking bin/eventlogadm
+Linking bin/samba_multicall
+Linking bin/smbd
+Linking bin/nmbd
+Linking bin/smbclient
+Linking bin/net
+Linking non-shared library bin/libsmbclient.a
+Linking bin/smbspool
+Compiling libsmb/smb_share_modes.c
+Linking non-shared library bin/libsmbsharemodes.a
+make[3]: Leaving directory '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/samba-3.6.25/source3'
+rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/samba-3.6.25/ipkg-arm_cortex-a9_vfpv3-d16/samba36-server/usr/sbin/samba_multicall: executable
+time: package/feeds/schimmelreiter/samba36/compile#149.20#36.68#49.13

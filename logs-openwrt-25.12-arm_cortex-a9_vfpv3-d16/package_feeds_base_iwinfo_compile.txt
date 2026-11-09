@@ -1,7 +1,7 @@
 + curl -f --connect-timeout 5 --retry 3 --location https://sources.cdn.openwrt.org/libiwinfo-2026.05.26~66bdd1a0.tar.zst
   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
                                  Dload  Upload  Total   Spent   Left   Speed
-  0      0   0      0   0      0      0      0                              0  0      0   0      0   0      0      0      0           00:01              0  0      0   0      0   0      0      0      0           00:02              0  0      0   0      0   0      0      0      0           00:03              0  0      0   0      0   0      0      0      0           00:04              0  0      0   0      0   0      0      0      0           00:06              0  0      0   0      0   0      0      0      0           00:07              0  0      0   0      0   0      0      0      0           00:08              0  0      0   0      0   0      0      0      0           00:09              0100 141.8k 100 141.8k   0      0  14581      0   00:09   00:09          21021100 141.8k 100 141.8k   0      0  14579      0   00:09   00:09          21021100 141.8k 100 141.8k   0      0  14578      0   00:09   00:09          21021
+  0      0   0      0   0      0      0      0                              0100 141.8k 100 141.8k   0      0  1.88M      0                              0100 141.8k 100 141.8k   0      0  1.86M      0                              0100 141.8k 100 141.8k   0      0  1.84M      0                              0
 
 Applying /home/runner/work/openwrt-feed/openwrt-feed/sdk/feeds/base_root/package/network/utils/iwinfo/patches/100-multi_radio.patch using plaintext: 
 patching file api/nl80211.h
@@ -23,4 +23,4 @@ arm-openwrt-linux-muslgnueabi-gcc -luci -lubox -lubus -L/home/runner/work/openwr
 make[3]: Leaving directory '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/libiwinfo-2026.05.26~66bdd1a0'
 rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/libiwinfo-2026.05.26~66bdd1a0/ipkg-arm_cortex-a9_vfpv3-d16/libiwinfo/usr/lib/libiwinfo.so.20230701: shared object
 rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/libiwinfo-2026.05.26~66bdd1a0/ipkg-arm_cortex-a9_vfpv3-d16/libiwinfo-lua/usr/lib/lua/iwinfo.so: shared object
-time: package/feeds/base/iwinfo/compile#3.37#2.74#16.47
+time: package/feeds/base/iwinfo/compile#2.45#2.22#5.16

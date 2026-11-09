@@ -1,1 +1,1 @@
-time: package/feeds/schimmelreiter/luci-app-samba/compile#0.48#1.39#1.58
+time: package/feeds/schimmelreiter/luci-app-samba/compile#0.42#1.11#1.32

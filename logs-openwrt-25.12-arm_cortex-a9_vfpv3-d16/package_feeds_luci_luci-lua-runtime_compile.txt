@@ -26,4 +26,4 @@ cp parser.so /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-ar
 cp version.lua /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/luci-lua-runtime/ipkg-install/usr/lib/lua/luci/version.lua
 make[3]: Leaving directory '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/luci-lua-runtime/src'
 rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/luci-lua-runtime/ipkg-arm_cortex-a9_vfpv3-d16/luci-lua-runtime/usr/lib/lua/luci/template/parser.so: shared object
-time: package/feeds/luci/luci-lua-runtime/compile#1.37#1.66#2.73
+time: package/feeds/luci/luci-lua-runtime/compile#1.11#1.43#2.29

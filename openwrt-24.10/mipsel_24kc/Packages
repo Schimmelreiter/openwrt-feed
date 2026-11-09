@@ -7,51 +7,51 @@ URL: https://github.com/Schimmelreiter/llmnrd
 Architecture: mipsel_24kc
 Installed-Size: 143360
 Filename: llmnrd_0.7-r2_mipsel_24kc.ipk
-Size: 14005
-SHA256sum: 84fdb84c87795d8449255e8057ce9ff798f12abb7e5b38393e61a010f8ca4d09
+Size: 14009
+SHA256sum: 85d11ce88f1055aa14fdec5746987998043ae272db6b2e9839a630fbfb4bb272
 Description:  llmnrd answers Link-Local Multicast Name Resolution (RFC 4795) queries,
  so Windows clients can resolve this device's host name on the local
  network without a DNS entry. IPv4 and IPv6 are supported.
 
 Package: lltd
-Version: 1.0.0-r2
+Version: 1.0.0-r3
 Depends: libc
 License: GPL-3.0-or-later
 Section: net
 URL: https://github.com/Schimmelreiter/lltd
 Architecture: mipsel_24kc
 Installed-Size: 81920
-Filename: lltd_1.0.0-r2_mipsel_24kc.ipk
-Size: 19271
-SHA256sum: 61e1ca459cad9c0b5b1e51123a1a41fa64210fcb1129ac7933093e1e578071ea
+Filename: lltd_1.0.0-r3_mipsel_24kc.ipk
+Size: 19924
+SHA256sum: e604ce9846527a423f5d2e93e6b3ee8cb33447d3feffb2f713011ff96397d7d7
 Description:  Responder for the Link Layer Topology Discovery protocol (MS-LLTD):
  the device appears in the Windows network map with name, address,
  medium, speed and icon, and takes part in topology tests. Handles
  bridges with DSA switches (local FDB entries for test addresses).
 
 Package: luci-app-samba
-Version: 26.312.67175~f66fdb4
+Version: 26.313.14512~560dac9
 Depends: libc, luci-compat, samba36-server, luci-lua-runtime
 License: Apache-2.0
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-app-samba_26.312.67175~f66fdb4_all.ipk
-Size: 3325
-SHA256sum: d5b9c1574db6b353ace7772cf3988f6a4e83c31866567b0a1cb7a730b75ce336
+Filename: luci-app-samba_26.313.14512~560dac9_all.ipk
+Size: 3323
+SHA256sum: 9d4a11ff7de5af8b2ec2a021bc94126af0803da55702fe5b72f841b0404332b7
 Description:  Network Shares - Samba SMB/CIFS module
 
 Package: luci-i18n-samba-de
-Version: 26.312.67175~f66fdb4
+Version: 26.313.14512~560dac9
 Depends: libc, luci-app-samba
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-samba-de_26.312.67175~f66fdb4_all.ipk
+Filename: luci-i18n-samba-de_26.313.14512~560dac9_all.ipk
 Size: 2351
-SHA256sum: 59d65f34ca6ee631a805700d4e0fe741bcd34be5abe1658a793b5e67227b4368
+SHA256sum: 50cb43006ec0507254559289a47cf7318ac4952c6495e1e37956b9535d3ee478
 Description:  Translation for luci-app-samba - Deutsch (German)
 
 Package: samba36-hotplug
@@ -64,8 +64,8 @@ CPE-ID: cpe:/a:samba:samba
 Architecture: mipsel_24kc
 Installed-Size: 10240
 Filename: samba36-hotplug_3.6.25-r15_mipsel_24kc.ipk
-Size: 1435
-SHA256sum: 3b0b66962e01b42e87ec2c90f3ee79ca0323a4630ecee45b83fde869dd172e6c
+Size: 1434
+SHA256sum: 35577d9757c3c8c3872d19451846a29c65d3e7dd5653234a0f94d70d66fadf1a
 Description:  Samba 3.6 SMB/CIFS hotplug script for auto sharing
 
 Package: samba36-server
@@ -78,8 +78,8 @@ CPE-ID: cpe:/a:samba:samba
 Architecture: mipsel_24kc
 Installed-Size: 1423360
 Filename: samba36-server_3.6.25-r15_mipsel_24kc.ipk
-Size: 778563
-SHA256sum: 6ad5a57912d9addb390ddde25ebee8d2745c974efe65be460040b8938e45ce45
+Size: 781906
+SHA256sum: 5f5ce95edf48a3b5376a3a68b713e24daae2f00808dacfbdf099eef5903ad0e8
 Description:  The Samba software suite is a collection of programs that implements the
  SMB protocol for UNIX systems, allowing you to serve files and printers to
  Windows, NT, OS/2 and DOS clients. This protocol is sometimes also referred
@@ -95,7 +95,7 @@ Architecture: mipsel_24kc
 Installed-Size: 81920
 Filename: wsdd2_2023.12.21~b676d8ac-r10_mipsel_24kc.ipk
 Size: 17427
-SHA256sum: 9fa3b8f639a3e332493a1f737a48201ec3926cd438d703de5dd557fc90640872
+SHA256sum: a09660b158d1ec6168f6cf89711c1b859ba4c657af12c009ca1d34a922f33cb7
 Description:  Web Services for Devices or Web Services on Devices (WSD),
  is a Microsoft API to simplify programming connections to web service
  enabled devices, such as printers, scanners and file shares.

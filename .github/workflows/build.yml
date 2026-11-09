@@ -103,6 +103,30 @@ jobs:
           ./scripts/feeds install -p schimmelreiter -a
           make defconfig
 
+      # Signing keys of the package feed (repository secrets). The public
+      # halves are in keys/ of this repository. Without the secrets the SDK
+      # signs with a new random key on every run, then the feed can only be
+      # used without signature check.
+      - name: Signing keys
+        working-directory: sdk
+        env:
+          USIGN_KEY: ${{ secrets.USIGN_KEY }}
+          APK_KEY: ${{ secrets.APK_KEY }}
+        run: |
+          if [ -n "$USIGN_KEY" ]; then
+            printf '%s\n' "$USIGN_KEY" > key-build
+            cp "$GITHUB_WORKSPACE/feed/keys/a3242c10f55446f3" key-build.pub
+          else
+            echo "::warning::secret USIGN_KEY missing, opkg index signed with a random key"
+          fi
+          if [ -n "$APK_KEY" ]; then
+            printf '%s\n' "$APK_KEY" > private-key.pem
+            cp "$GITHUB_WORKSPACE/feed/keys/schimmelreiter.pem" public-key.pem
+          else
+            echo "::warning::secret APK_KEY missing, apk index signed with a random key"
+          fi
+          chmod 600 key-build private-key.pem 2>/dev/null || true
+
       - name: Build
         timeout-minutes: 120
         working-directory: sdk

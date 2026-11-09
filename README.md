@@ -30,25 +30,54 @@ Every push to `main` publishes the packages
 
 Build logs of the last run are on the branch [`logs`](../../tree/logs).
 
-## Installation
+## Installation as a package feed
 
-The packages are not signed with an OpenWrt key.
+The branch `packages` is a complete package feed (signed index). Add it once
+per device, then install and update the packages with `apk`/`opkg` as usual.
 
-OpenWrt 25.12 (apk):
-
-```sh
-cd /tmp
-wget https://github.com/Schimmelreiter/openwrt-feed/releases/download/packages-openwrt-25.12-arm_cortex-a9_vfpv3-d16/<file>.apk
-apk add --allow-untrusted /tmp/<file>.apk
-```
-
-OpenWrt 24.10 (ipk):
+### OpenWrt 25.12 (apk, `arm_cortex-a9_vfpv3-d16`)
 
 ```sh
-cd /tmp
-wget https://github.com/Schimmelreiter/openwrt-feed/releases/download/packages-openwrt-24.10-mipsel_24kc/<file>.ipk
-opkg install /tmp/<file>.ipk
+wget -O /etc/apk/keys/schimmelreiter.pem \
+  https://raw.githubusercontent.com/Schimmelreiter/openwrt-feed/main/keys/schimmelreiter.pem
+echo "https://raw.githubusercontent.com/Schimmelreiter/openwrt-feed/packages/openwrt-25.12/arm_cortex-a9_vfpv3-d16/packages.adb" \
+  > /etc/apk/repositories.d/schimmelreiter.list
+apk update
+apk add lltd llmnrd wsdd2 samba36-server luci-app-samba luci-i18n-samba-de
 ```
+
+### OpenWrt 24.10 (opkg, `mipsel_24kc`)
+
+```sh
+wget -O /etc/opkg/keys/a3242c10f55446f3 \
+  https://raw.githubusercontent.com/Schimmelreiter/openwrt-feed/main/keys/a3242c10f55446f3
+echo "src/gz schimmelreiter https://raw.githubusercontent.com/Schimmelreiter/openwrt-feed/packages/openwrt-24.10/mipsel_24kc" \
+  >> /etc/opkg/customfeeds.conf
+opkg update
+opkg install lltd llmnrd
+```
+
+Packages of this feed have the same names as some official packages
+(`wsdd2`, `llmnrd`); with the feed added, the higher version wins on update.
+
+### Single packages without the feed
+
+The packages are also attached to the releases `packages-<openwrt release>-<arch>`.
+Download with a fixed file name (the OpenWrt `wget` names the file after
+GitHub's redirect otherwise):
+
+```sh
+wget -O /tmp/lltd.apk https://github.com/Schimmelreiter/openwrt-feed/releases/download/packages-openwrt-25.12-arm_cortex-a9_vfpv3-d16/<file>.apk
+apk add --allow-untrusted /tmp/lltd.apk
+```
+
+GitHub replaces `~` in release file names with `.`.
+
+### Signing keys (maintainer)
+
+The index is signed with the keys in the repository secrets `USIGN_KEY`
+(usign secret key, opkg) and `APK_KEY` (EC P-256 private key in PEM, apk).
+Their public halves are `keys/a3242c10f55446f3` and `keys/schimmelreiter.pem`.
 
 ## Using it as a feed in your own SDK/buildroot
 

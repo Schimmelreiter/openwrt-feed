@@ -1,3 +1,3 @@
 rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/ucode-mod-html/ipkg-mipsel_24kc/ucode-mod-html/usr/lib/ucode/html.so: shared object
 Packaged contents of /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/ucode-mod-html/ipkg-mipsel_24kc/ucode-mod-html into /home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/packages/mipsel_24kc/luci/ucode-mod-html_1_mipsel_24kc.ipk
-time: package/feeds/luci/ucode-mod-html/compile#0.53#0.57#1.10
+time: package/feeds/luci/ucode-mod-html/compile#0.73#0.98#1.98

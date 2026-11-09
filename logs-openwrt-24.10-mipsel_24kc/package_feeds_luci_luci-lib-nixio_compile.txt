@@ -44,4 +44,4 @@ cp -pR dist/* /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-m
 make[3]: Leaving directory '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-lib-nixio/src'
 rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-lib-nixio/ipkg-mipsel_24kc/luci-lib-nixio/usr/lib/lua/nixio.so: shared object
 Packaged contents of /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-lib-nixio/ipkg-mipsel_24kc/luci-lib-nixio into /home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/packages/mipsel_24kc/luci/luci-lib-nixio_26.205.85413~cac97ed_mipsel_24kc.ipk
-time: package/feeds/luci/luci-lib-nixio/compile#1.91#1.13#2.96
+time: package/feeds/luci/luci-lib-nixio/compile#2.65#2.15#5.08

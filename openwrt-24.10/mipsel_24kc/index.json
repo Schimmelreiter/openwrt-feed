@@ -3,9 +3,9 @@
   "architecture": "mipsel_24kc",
   "packages": {
     "llmnrd": "0.7-r2",
-    "lltd": "1.0.0-r3",
-    "luci-app-samba": "26.313.14512~560dac9",
-    "luci-i18n-samba-de": "26.313.14512~560dac9",
+    "lltd": "1.0.0-r4",
+    "luci-app-samba": "26.314.37362~9e46abb",
+    "luci-i18n-samba-de": "26.314.37362~9e46abb",
     "samba36-hotplug": "3.6.25-r15",
     "samba36-server": "3.6.25-r15",
     "wsdd2": "2023.12.21~b676d8ac-r10"

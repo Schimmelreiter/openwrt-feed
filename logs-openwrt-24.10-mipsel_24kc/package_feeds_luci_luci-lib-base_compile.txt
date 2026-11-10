@@ -1,2 +1,2 @@
 Packaged contents of /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-lib-base/ipkg-all/luci-lib-base into /home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/packages/mipsel_24kc/luci/luci-lib-base_26.205.85413~cac97ed_all.ipk
-time: package/feeds/luci/luci-lib-base/compile#0.48#1.10#1.45
+time: package/feeds/luci/luci-lib-base/compile#0.46#1.17#1.45

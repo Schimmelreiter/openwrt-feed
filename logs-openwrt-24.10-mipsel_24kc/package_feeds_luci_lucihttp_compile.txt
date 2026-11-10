@@ -1,7 +1,7 @@
 + curl -f --connect-timeout 20 --retry 5 --location https://sources.cdn.openwrt.org/lucihttp-2023.03.15~9b5b683f.tar.zst
   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
                                  Dload  Upload  Total   Spent   Left   Speed
-  0      0   0      0   0      0      0      0                              0100  20217 100  20217   0      0 365.8k      0                              0100  20217 100  20217   0      0 365.3k      0                              0100  20217 100  20217   0      0 364.8k      0                              0
+  0      0   0      0   0      0      0      0                              0100  20217 100  20217   0      0 737.6k      0                              0100  20217 100  20217   0      0 735.6k      0                              0100  20217 100  20217   0      0 734.0k      0                              0
 CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
   Compatibility with CMake < 3.5 will be removed from a future version of
   CMake.
@@ -19,15 +19,15 @@ Not searching for unused variables given on the command line.
 -- Detecting C compile features - done
 -- Found PkgConfig: /home/runner/work/openwrt-feed/openwrt-feed/sdk/staging_dir/host/bin/pkg-config (found version "2.2.0")
 -- Checking for one of the modules 'lua5.1;lua-5.1;lua'
--- Configuring done (0.7s)
+-- Configuring done (0.8s)
 -- Generating done (0.0s)
 -- Build files have been written to: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/lucihttp-2023.03.15~9b5b683f
 ninja: Entering directory `/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/lucihttp-2023.03.15~9b5b683f'
-[1/9] Building C object CMakeFiles/liblucihttp.dir/lib/utils.c.o
-[2/9] Building C object CMakeFiles/liblucihttp.dir/lib/urlencoded-parser.c.o
+[1/9] Building C object CMakeFiles/liblucihttp.dir/lib/urlencoded-parser.c.o
+[2/9] Building C object CMakeFiles/liblucihttp.dir/lib/multipart-parser.c.o
 [3/9] Building C object CMakeFiles/liblucihttp-lua.dir/lib/lua.c.o
-[4/9] Building C object CMakeFiles/liblucihttp-ucode.dir/lib/ucode.c.o
-[5/9] Building C object CMakeFiles/liblucihttp.dir/lib/multipart-parser.c.o
+[4/9] Building C object CMakeFiles/liblucihttp.dir/lib/utils.c.o
+[5/9] Building C object CMakeFiles/liblucihttp-ucode.dir/lib/ucode.c.o
 [6/9] Linking C shared library liblucihttp.so.0.1
 [7/9] Creating library symlink liblucihttp.so.0 liblucihttp.so
 [8/9] Linking C shared library lua/lucihttp.so
@@ -50,4 +50,4 @@ rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mips
 Packaged contents of /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/lucihttp-2023.03.15~9b5b683f/ipkg-mipsel_24kc/liblucihttp-lua into /home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/packages/mipsel_24kc/luci/liblucihttp-lua_2023.03.15~9b5b683f-r1_mipsel_24kc.ipk
 rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/lucihttp-2023.03.15~9b5b683f/ipkg-mipsel_24kc/liblucihttp-ucode/usr/lib/ucode/lucihttp.so: shared object
 Packaged contents of /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/lucihttp-2023.03.15~9b5b683f/ipkg-mipsel_24kc/liblucihttp-ucode into /home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/packages/mipsel_24kc/luci/liblucihttp-ucode_2023.03.15~9b5b683f-r1_mipsel_24kc.ipk
-time: package/feeds/luci/lucihttp/compile#2.00#2.63#4.17
+time: package/feeds/luci/lucihttp/compile#2.04#2.83#4.86

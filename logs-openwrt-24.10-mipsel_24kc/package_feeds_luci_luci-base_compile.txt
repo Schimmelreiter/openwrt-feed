@@ -66,4 +66,4 @@ Packaged contents of /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/t
 Packaged contents of /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-base/ipkg-all/luci-i18n-base-yua into /home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/packages/mipsel_24kc/luci/luci-i18n-base-yua_26.205.85413~cac97ed_all.ipk
 Packaged contents of /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-base/ipkg-all/luci-i18n-base-zh-cn into /home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/packages/mipsel_24kc/luci/luci-i18n-base-zh-cn_26.205.85413~cac97ed_all.ipk
 Packaged contents of /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/luci-base/ipkg-all/luci-i18n-base-zh-tw into /home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/packages/mipsel_24kc/luci/luci-i18n-base-zh-tw_26.205.85413~cac97ed_all.ipk
-time: package/feeds/luci/luci-base/compile#6.27#12.66#16.16
+time: package/feeds/luci/luci-base/compile#7.03#14.23#18.30

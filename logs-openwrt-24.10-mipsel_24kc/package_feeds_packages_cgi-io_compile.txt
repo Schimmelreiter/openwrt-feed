@@ -1,7 +1,7 @@
 + curl -f --connect-timeout 20 --retry 5 --location https://sources.cdn.openwrt.org/cgi-io-2026.07.21~31cb3c89.tar.zst
   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
                                  Dload  Upload  Total   Spent   Left   Speed
-  0      0   0      0   0      0      0      0                              0100  11690 100  11690   0      0 208.7k      0                              0100  11690 100  11690   0      0 206.9k      0                              0100  11690 100  11690   0      0 206.7k      0                              0
+  0      0   0      0   0      0      0      0                              0100  11690 100  11690   0      0 595.1k      0                              0100  11690 100  11690   0      0 572.3k      0                              0100  11690 100  11690   0      0 570.6k      0                              0
 Not searching for unused variables given on the command line.
 -- The C compiler identification is GNU 13.3.0
 -- Detecting C compiler ABI info
@@ -24,4 +24,4 @@ ninja: Entering directory `/home/runner/work/openwrt-feed/openwrt-feed/sdk/build
 -- Installing: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/cgi-io-2026.07.21~31cb3c89/ipkg-install/usr/sbin/cgi-io
 rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/cgi-io-2026.07.21~31cb3c89/ipkg-mipsel_24kc/cgi-io/usr/libexec/cgi-io: executable
 Packaged contents of /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-mipsel_24kc_musl/cgi-io-2026.07.21~31cb3c89/ipkg-mipsel_24kc/cgi-io into /home/runner/work/openwrt-feed/openwrt-feed/sdk/bin/packages/mipsel_24kc/packages/cgi-io_2026.07.21~31cb3c89-r1_mipsel_24kc.ipk
-time: package/feeds/packages/cgi-io/compile#1.34#1.69#2.93
+time: package/feeds/packages/cgi-io/compile#1.29#1.65#2.58

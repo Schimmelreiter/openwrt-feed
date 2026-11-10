@@ -1,2 +1,2 @@
 Makefile:789: WARNING: skipping libgomp -- package has no install section
-time: package/toolchain/compile#0.26#0.62#0.86
+time: package/toolchain/compile#0.24#0.60#0.75

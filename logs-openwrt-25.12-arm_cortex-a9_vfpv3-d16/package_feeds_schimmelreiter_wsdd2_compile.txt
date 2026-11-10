@@ -1,7 +1,7 @@
 + curl -f --connect-timeout 5 --retry 3 --location https://sources.cdn.openwrt.org/wsdd2-2023.12.21~b676d8ac.tar.zst
   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
                                  Dload  Upload  Total   Spent   Left   Speed
-  0      0   0      0   0      0      0      0                              0100  63581 100  63581   0      0 930.9k      0                              0100  63581 100  63581   0      0 930.3k      0                              0100  63581 100  63581   0      0 929.8k      0                              0
+  0      0   0      0   0      0      0      0                              0100  63581 100  63581   0      0  1.05M      0                              0100  63581 100  63581   0      0  1.05M      0                              0100  63581 100  63581   0      0  1.05M      0                              0
 
 Applying /home/runner/work/openwrt-feed/openwrt-feed/feed/net/wsdd2/patches/100-bootinfo-urls-and-device-category.patch using plaintext: 
 patching file wsd.c
@@ -85,4 +85,4 @@ In file included from /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/
       |                                                              long int
       |                                                            %d
 rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/wsdd2-2023.12.21~b676d8ac/ipkg-arm_cortex-a9_vfpv3-d16/wsdd2/usr/bin/wsdd2: executable
-time: package/feeds/schimmelreiter/wsdd2/compile#0.66#0.82#1.31
+time: package/feeds/schimmelreiter/wsdd2/compile#0.74#0.90#1.43

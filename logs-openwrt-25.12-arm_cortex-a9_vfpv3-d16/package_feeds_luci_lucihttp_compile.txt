@@ -1,7 +1,7 @@
 + curl -f --connect-timeout 5 --retry 3 --location https://sources.cdn.openwrt.org/lucihttp-2023.03.15~9b5b683f.tar.zst
   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
                                  Dload  Upload  Total   Spent   Left   Speed
-  0      0   0      0   0      0      0      0                              0100  20217 100  20217   0      0 417.1k      0                              0100  20217 100  20217   0      0 416.2k      0                              0100  20217 100  20217   0      0 415.9k      0                              0
+  0      0   0      0   0      0      0      0                              0100  20217 100  20217   0      0 523.3k      0                              0100  20217 100  20217   0      0 522.6k      0                              0100  20217 100  20217   0      0 521.8k      0                              0
 
 Applying /home/runner/work/openwrt-feed/openwrt-feed/sdk/feeds/luci/contrib/package/lucihttp/patches/001-cmake.patch using plaintext: 
 patching file CMakeLists.txt
@@ -18,7 +18,7 @@ Not searching for unused variables given on the command line.
 -- Generating done (0.0s)
 -- Build files have been written to: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/lucihttp-2023.03.15~9b5b683f
 ninja: Entering directory `/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/lucihttp-2023.03.15~9b5b683f'
-ninja: Jobserver mode detected: --jobserver-auth=fifo:/tmp/GMfifo257457
+ninja: Jobserver mode detected: --jobserver-auth=fifo:/tmp/GMfifo257398
 [1/9] Building C object CMakeFiles/liblucihttp.dir/lib/utils.c.o
 [2/9] Building C object CMakeFiles/liblucihttp.dir/lib/multipart-parser.c.o
 [3/9] Building C object CMakeFiles/liblucihttp.dir/lib/urlencoded-parser.c.o
@@ -29,7 +29,7 @@ ninja: Jobserver mode detected: --jobserver-auth=fifo:/tmp/GMfifo257457
 [8/9] Linking C shared library lua/lucihttp.so
 [9/9] Linking C shared library ucode/lucihttp.so
 ninja: Entering directory `/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/lucihttp-2023.03.15~9b5b683f'
-ninja: Jobserver mode detected: --jobserver-auth=fifo:/tmp/GMfifo257457
+ninja: Jobserver mode detected: --jobserver-auth=fifo:/tmp/GMfifo257398
 [0/1] Install the project...
 -- Install configuration: "Release"
 -- Installing: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/lucihttp-2023.03.15~9b5b683f/ipkg-install/usr/lib/liblucihttp.so.0.1
@@ -41,7 +41,8 @@ ninja: Jobserver mode detected: --jobserver-auth=fifo:/tmp/GMfifo257457
 -- Installing: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/lucihttp-2023.03.15~9b5b683f/ipkg-install/usr/lib/lua/lucihttp.so
 -- Installing: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/lucihttp-2023.03.15~9b5b683f/ipkg-install/usr/include/lucihttp/lua.h
 -- Installing: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/lucihttp-2023.03.15~9b5b683f/ipkg-install/usr/lib/ucode/lucihttp.so
+bash: line 1: echo: write error: Broken pipe
 rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/lucihttp-2023.03.15~9b5b683f/ipkg-arm_cortex-a9_vfpv3-d16/liblucihttp/usr/lib/liblucihttp.so.0.1: shared object
 rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/lucihttp-2023.03.15~9b5b683f/ipkg-arm_cortex-a9_vfpv3-d16/liblucihttp-lua/usr/lib/lua/lucihttp.so: shared object
 rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/lucihttp-2023.03.15~9b5b683f/ipkg-arm_cortex-a9_vfpv3-d16/liblucihttp-ucode/usr/lib/ucode/lucihttp.so: shared object
-time: package/feeds/luci/lucihttp/compile#1.54#2.29#4.05
+time: package/feeds/luci/lucihttp/compile#1.50#2.15#3.91

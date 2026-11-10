@@ -27,4 +27,4 @@ mkdir -p /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_co
 cp version.uc /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/luci-base/ipkg-install/usr/share/ucode/luci/version.uc
 make[3]: Leaving directory '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/luci-base/src'
 rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/luci-base/ipkg-arm_cortex-a9_vfpv3-d16/luci-base/usr/lib/ucode/luci/core.so: shared object
-time: package/feeds/luci/luci-base/compile#7.43#13.84#19.46
+time: package/feeds/luci/luci-base/compile#7.60#14.29#20.01

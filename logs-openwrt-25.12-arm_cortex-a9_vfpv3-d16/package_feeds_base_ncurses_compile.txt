@@ -1,1 +1,1 @@
-time: package/feeds/base/ncurses/compile#0.40#0.77#1.15
+time: package/feeds/base/ncurses/compile#0.39#0.74#1.16

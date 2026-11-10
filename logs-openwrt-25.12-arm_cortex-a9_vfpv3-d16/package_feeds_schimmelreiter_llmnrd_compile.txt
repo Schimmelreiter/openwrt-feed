@@ -54,4 +54,4 @@ make[3]: Entering directory '/home/runner/work/openwrt-feed/openwrt-feed/sdk/bui
 make[3]: Leaving directory '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/llmnrd-0.7'
 rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/llmnrd-0.7/ipkg-arm_cortex-a9_vfpv3-d16/llmnrd/usr/sbin/llmnrd: executable
 rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/llmnrd-0.7/ipkg-arm_cortex-a9_vfpv3-d16/llmnrd/usr/sbin/llmnr-query: executable
-time: package/feeds/schimmelreiter/llmnrd/compile#0.81#1.17#3.79
+time: package/feeds/schimmelreiter/llmnrd/compile#0.92#1.26#3.69

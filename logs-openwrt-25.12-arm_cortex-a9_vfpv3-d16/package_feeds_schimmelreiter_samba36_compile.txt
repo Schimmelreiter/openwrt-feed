@@ -112,8 +112,8 @@ Compiling utils/net_dom.c
 Compiling utils/net_share.c
 Compiling utils/net_g_lock.c
 Compiling utils/net_serverid.c
-Compiling utils/net_printing.c
 Compiling utils/net_eventlog.c
+Compiling utils/net_printing.c
 Compiling utils/net_rpc_trust.c
 Compiling librpc/gen_ndr/ndr_preg.c
 Compiling ../librpc/ndr/ndr_preg.c
@@ -161,8 +161,8 @@ Compiling lib/netapi/netapi.c
 Compiling lib/netapi/cm.c
 Compiling librpc/gen_ndr/ndr_libnetapi.c
 Compiling lib/netapi/libnetapi.c
-Compiling lib/netapi/joindomain.c
 Compiling lib/netapi/serverinfo.c
+Compiling lib/netapi/joindomain.c
 Compiling lib/netapi/getdc.c
 Compiling lib/netapi/user.c
 Compiling lib/netapi/group.c
@@ -181,13 +181,13 @@ Compiling utils/smbget.c
 Compiling libsmb/libsmb_cache.c
 Compiling libsmb/libsmb_compat.c
 Compiling libsmb/libsmb_context.c
-Compiling libsmb/libsmb_dir.c
 Compiling libsmb/libsmb_file.c
+Compiling libsmb/libsmb_dir.c
+Compiling libsmb/libsmb_misc.c
 libsmb/libsmb_dir.c: In function 'SMBC_getdents_ctx':
 libsmb/libsmb_dir.c:1126:37: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
  1126 |                 while((rem > 0) && ((unsigned long long)ndir & (sizeof(void*) - 1))) {
       |                                     ^
-Compiling libsmb/libsmb_misc.c
 Compiling libsmb/libsmb_path.c
 Compiling libsmb/libsmb_printjob.c
 Compiling libsmb/libsmb_server.c
@@ -211,8 +211,8 @@ Compiling rpcclient/cmd_netlogon.c
 Compiling rpcclient/cmd_srvsvc.c
 Compiling rpcclient/cmd_dfs.c
 Compiling rpcclient/cmd_epmapper.c
-Compiling rpcclient/cmd_dssetup.c
 Compiling rpcclient/cmd_echo.c
+Compiling rpcclient/cmd_dssetup.c
 Compiling rpcclient/cmd_shutdown.c
 Compiling rpcclient/cmd_test.c
 Compiling rpcclient/cmd_wkssvc.c
@@ -266,10 +266,6 @@ utils/smbcacls.c:174:56: note: declared here
       |                                                ~~~~~~~~^~~
 Compiling utils/profiles.c
 Compiling utils/ntlm_auth.c
-utils/smbcacls.c: In function 'main':
-utils/smbcacls.c:1309:43: warning: '%s' directive argument is null [-Wformat-overflow=]
- 1309 |                 printf("Invalid argument: %s\n", share);
-      |                                           ^~
 In file included from include/includes.h:545,
                  from utils/ntlm_auth.c:26:
 utils/ntlm_auth.c: In function 'parse_ntlm_auth_domain_user':
@@ -346,27 +342,31 @@ utils/ntlm_auth.c:244:70: note: declared here
   244 | static bool parse_ntlm_auth_domain_user(const char *domuser, fstring domain,
       |                                                              ~~~~~~~~^~~~~~
 Compiling utils/ntlm_auth_diagnostics.c
+utils/smbcacls.c: In function 'main':
+utils/smbcacls.c:1309:43: warning: '%s' directive argument is null [-Wformat-overflow=]
+ 1309 |                 printf("Invalid argument: %s\n", share);
+      |                                           ^~
 Compiling utils/sharesec.c
 Compiling utils/smbcquotas.c
 Compiling utils/eventlogadm.c
 Linking non-shared library bin/libtevent.a
+Compiling nmbd/nmbd.c.c
 utils/smbcquotas.c: In function 'main':
 utils/smbcquotas.c:703:43: warning: '%s' directive argument is null [-Wformat-overflow=]
   703 |                 printf("Invalid argument: %s\n", share);
       |                                           ^~
-Compiling nmbd/nmbd.c.c
 Compiling smbd/build_options.c
 Compiling smbd/server.c.c
 Compiling utils/owrt_smbpasswd.c.c
 Linking non-shared library bin/libtdb.a
 Linking non-shared library bin/libwbclient.a
 Linking non-shared library bin/libnetapi.a
+Linking bin/testparm
+Linking bin/smbstatus
 utils/owrt_smbpasswd.c: In function 'md4hash':
 utils/owrt_smbpasswd.c:42:9: warning: implicit declaration of function 'mdfour' [-Wimplicit-function-declaration]
    42 |         mdfour(p16, (unsigned char *)wpwd, len);
       |         ^~~~~~
-Linking bin/testparm
-Linking bin/smbstatus
 Linking bin/smbget
 Linking bin/smbta-util
 Linking bin/smbcontrol
@@ -384,17 +384,17 @@ Linking bin/profiles
 Linking bin/ntlm_auth
 Linking bin/sharesec
 Linking bin/smbcquotas
-Linking non-shared library bin/libaddns.a
 Linking bin/eventlogadm
+Linking non-shared library bin/libaddns.a
 Linking bin/samba_multicall
 Linking bin/smbd
 Linking bin/nmbd
 Linking bin/smbclient
 Linking bin/net
-Linking non-shared library bin/libsmbclient.a
 Linking bin/smbspool
+Linking non-shared library bin/libsmbclient.a
 Compiling libsmb/smb_share_modes.c
 Linking non-shared library bin/libsmbsharemodes.a
 make[3]: Leaving directory '/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/samba-3.6.25/source3'
 rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/samba-3.6.25/ipkg-arm_cortex-a9_vfpv3-d16/samba36-server/usr/sbin/samba_multicall: executable
-time: package/feeds/schimmelreiter/samba36/compile#149.20#36.68#49.13
+time: package/feeds/schimmelreiter/samba36/compile#155.83#38.21#51.41

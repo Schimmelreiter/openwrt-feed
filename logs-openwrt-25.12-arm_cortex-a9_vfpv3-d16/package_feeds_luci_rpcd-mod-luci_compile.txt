@@ -9,13 +9,13 @@ Not searching for unused variables given on the command line.
 -- Generating done (0.0s)
 -- Build files have been written to: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/rpcd-mod-luci-20240305
 ninja: Entering directory `/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/rpcd-mod-luci-20240305'
-ninja: Jobserver mode detected: --jobserver-auth=fifo:/tmp/GMfifo257457
+ninja: Jobserver mode detected: --jobserver-auth=fifo:/tmp/GMfifo257398
 [1/2] Building C object CMakeFiles/rpcd-mod-luci.dir/luci.c.o
 [2/2] Linking C shared module luci.so
 ninja: Entering directory `/home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/rpcd-mod-luci-20240305'
-ninja: Jobserver mode detected: --jobserver-auth=fifo:/tmp/GMfifo257457
+ninja: Jobserver mode detected: --jobserver-auth=fifo:/tmp/GMfifo257398
 [0/1] Install the project...
 -- Install configuration: "Release"
 -- Installing: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/rpcd-mod-luci-20240305/ipkg-install/usr/lib/luci.so
 rstrip.sh: /home/runner/work/openwrt-feed/openwrt-feed/sdk/build_dir/target-arm_cortex-a9+vfpv3-d16_musl_eabi/rpcd-mod-luci-20240305/ipkg-arm_cortex-a9_vfpv3-d16/rpcd-mod-luci/usr/lib/rpcd/luci.so: shared object
-time: package/feeds/luci/rpcd-mod-luci/compile#0.93#1.02#1.74
+time: package/feeds/luci/rpcd-mod-luci/compile#0.96#1.07#1.81

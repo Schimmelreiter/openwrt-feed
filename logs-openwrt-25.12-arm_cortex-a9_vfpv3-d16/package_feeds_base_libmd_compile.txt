@@ -1,2 +1,2 @@
 Makefile:47: WARNING: skipping libmd -- package has no install section
-time: package/feeds/base/libmd/compile#0.23#0.51#0.75
+time: package/feeds/base/libmd/compile#0.23#0.54#0.74
